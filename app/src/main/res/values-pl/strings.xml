@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Plan lekcji</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="hello_text">Dodaj plan lekcji przyciskiem poniżej</string>
+</resources>
