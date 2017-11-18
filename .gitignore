@@ -1,6 +1,7 @@
 /.gradle/
 /.idea/
 /local.properties
+/api/build
 /app/build
 /build
 /captures

@@ -61,7 +61,7 @@ jobs:
       - store_test_results:
           path: ./app/build/reports/
 
-  test:
+  app-test:
     <<: *container_config
     steps:
       - *attach_workspace
@@ -69,17 +69,40 @@ jobs:
           <<: *general_cache_key
       - run:
           name: Run Tests
-          command: ./gradlew --no-daemon --stacktrace test
+          command: ./gradlew --no-daemon --stacktrace :app:test
       - run:
           name: Upload unit code coverage to codecov
           command: |
-            ./gradlew --no-daemon --stacktrace jacocoTestReport
+            ./gradlew --no-daemon --stacktrace :app:jacocoTestReport
             bash <(curl -s https://codecov.io/bash) -F unit
       - store_artifacts:
           path: ./app/build/reports/tests/
           destination: tests_reports/
       - store_artifacts:
           path: ./app/build/reports/jacoco/jacocoTestDebugUnitTestReport/
+          destination: coverage_reports/
+      - store_test_results:
+          path: ./app/build/test-results
+
+  api-test:
+    <<: *container_config
+    steps:
+      - *attach_workspace
+      - restore_cache:
+          <<: *general_cache_key
+      - run:
+          name: Run Tests
+          command: ./gradlew --no-daemon --stacktrace :api:test
+      - run:
+          name: Upload unit code coverage to codecov
+          command: |
+            ./gradlew --no-daemon --stacktrace :api:jacocoTestReport
+            bash <(curl -s https://codecov.io/bash) -F api
+      - store_artifacts:
+          path: ./app/build/reports/tests/
+          destination: tests_reports/
+      - store_artifacts:
+          path: ./app/build/reports/jacoco/test/
           destination: coverage_reports/
       - store_test_results:
           path: ./app/build/test-results
@@ -130,7 +153,10 @@ workflows:
       - lint:
           requires:
             - build
-      - test:
+      - api-test:
+          requires:
+            - build
+      - app-test:
           requires:
             - build
 #      - instrumented:
