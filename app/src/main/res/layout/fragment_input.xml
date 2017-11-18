@@ -1,0 +1,47 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.github.wulkanowy.timetable.InputFragment">
+
+    <LinearLayout
+        android:id="@+id/school_form_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/to_school_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            >
+
+            <AutoCompleteTextView
+                android:id="@+id/school"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_school"
+                android:inputType="textAutoComplete"
+                android:maxLines="1"
+                android:importantForAutofill="noExcludeDescendants"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/action_save"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/action_save"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

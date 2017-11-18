@@ -2,15 +2,16 @@ package io.github.wulkanowy.timetable;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+
+    private InputFragment inputFragment = new InputFragment();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,9 +24,14 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Not implemented yet", Toast.LENGTH_LONG).show();
+                setTitle(R.string.input_title);
+                getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.fragment_container, inputFragment).commit();
             }
         });
+
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.fragment_container, new MainActivityFragment()).commit();
     }
 
     @Override

@@ -1,0 +1,1253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string-array name="timetables_schools">
+        <item>XVI Liceum Ogólnokształcące</item>
+        <item>II Liceum Ogólnokształcące w Chojnicach</item>
+        <item>Liceum Plastyczne</item>
+        <item>Zespół Szkół nr 4</item>
+        <item>Zespół Szkół Budowlanych</item>
+        <item>ZESPÓŁ SZKÓŁ ZAWODOWYCH NR 1</item>
+        <item>Centrum Kształcenia Zawodowego i Ustawicznego nr 1</item>
+        <item>Gimnazjum nr 2</item>
+        <item>Zespół Szkół Ekonomicznych w Kielcach</item>
+        <item>Zespół Szkół Ponadgimnazjalnych Nr 1</item>
+        <item>Gimnazjum nr 1 im. ks. Stanisława Konarskiego w Lublinie</item>
+        <item>Gimnazjum nr 10</item>
+        <item>Gimnazjum nr 2 im. Jana Heweliusza w Gdańsku</item>
+        <item>Publiczne Gimnazjum im. Orła Białego</item>
+        <item>Gimnazjum w Wierzchosławicach</item>
+        <item>I Liceum Ogólnokształcące z Oddziałami Integracyjnymi im. Bolesława Limanowskiego</item>
+        <item>Zespół Szkół Ponadgimnazjalnych nr 6</item>
+        <item>ZESPÓŁ SZKÓŁ nr 2 W OPATOWIE</item>
+        <item>I LICEUM OGÓLNOKSZTAŁCĄCE w PILE</item>
+        <item>I Liceum Ogólnokształcące im. Stanisława Staszica w Lublinie</item>
+        <item>I Liceum Ogólnokształcące Collegium Gostomianum</item>
+        <item>Zespół Szkół Ogólnokształcących im. Ziemi Gostyńskiej w Gostyniu</item>
+        <item>Zespół Szkół Ogólnokształcących i Zawodowych im. Króla Władysława Jagiełły</item>
+        <item>Liceum Ogólnokształcące im. Tadeusza Kościuszki w Ropczycach</item>
+        <item>Zespół Szkół Centrum Kształcenia Rolniczego w Starym Lubiejewie</item>
+        <item>ZESPÓŁ SZKÓŁ NR 1 W GORLICACH</item>
+        <item>Zespół Szkół Politechnicznych w Głogowie</item>
+        <item>Zespół Szkół Centrum Kształcenia Praktycznego i Centrum Kształcenia Ustawicznego im. St. Staszica w Miętnem</item>
+        <item>Punkt Przedszkolny przy Szkole Podstawowej w Wiślinie</item>
+        <item>I Liceum Ogólnokształcące im. Jarosława Dąbrowskiego</item>
+        <item>I Liceum Ogólnokształcące</item>
+        <item>I Liceum Ogólnokształcące</item>
+        <item>I Liceum Ogólnokształcące</item>
+        <item>I Liceum Ogólnokształcące im. Tadeusza Kościuszki</item>
+        <item>I Liceum Ogólnokształcące im. Mikołaja Kopernika w Toruniu</item>
+        <item>I Liceum Ogólnokształcące w Wyszkowie</item>
+        <item>Gimnazjum Nr 2 Mistrzostwa Sportowego im.Wojciecha Korfantego</item>
+        <item>II Liceum Ogólnokształcace w Legnicy</item>
+        <item>Zespół Szkół Ogólnokształcących nr 2</item>
+        <item>II Liceum Ogólnokształcące w Rzeszowie</item>
+        <item>II Liceum Ogólnokształcące</item>
+        <item>Zespół Szkół Gimnazjalno-Licealnych</item>
+        <item>Zespół Szkół Ogólnokształcących nr 3</item>
+        <item>III Liceum Ogólnokształcące</item>
+        <item>Zespół Szkół Ogólnokształcących nr 4</item>
+        <item>IV Liceum Ogólnokształcące im. Stefanii Sempołowskiej w Lublinie</item>
+        <item>GIMNAZJUM NR 5 IM. KRÓLA WŁADYSŁAWA ŁOKIETKA W LUBLINIE</item>
+        <item>V Liceum Ogólnokształcące im. Marii Skłodowskiej-Curie w Lublinie</item>
+        <item>VII Liceum Ogólnokształcące</item>
+        <item>Augustowskie Centrum Edukacyjne w Augustowie</item>
+        <item>Społeczne Gimnazjum AD ASTRA w Miliczu</item>
+        <item>Zespół Szkół Ogólnokształcących w Myślenicach</item>
+        <item>Zespół Szkół nr 66</item>
+        <item>Zespół Szkół im. św. Stanisława Kostki</item>
+        <item>Zespół Szkół Budowlanych</item>
+        <item>Centrum Kształcenia Zawodowego i Ustawicznego</item>
+        <item>Centrum Kształcenia Ustawicznego</item>
+        <item>Centrum Kształcenia Zawodowego i Ustawicznego w Więcborku</item>
+        <item>Centrum Kształcenia Zawodowego i Ustawicznego w Żorach</item>
+        <item>Centrum Kształcenia Zawodowego i Ustawicznego w Ludowie Polskim</item>
+        <item>Zespół Szkół Rolnicze Centrum Kształcenia Ustawicznego</item>
+        <item>Zespół Szkół Ogólnokształcących nr 1</item>
+        <item>Zespół Szkół Ekonomicznych</item>
+        <item>IX Liceum Ogólnokształcące</item>
+        <item>Zespół Szkół nr 1 im. Mikołaja Kopernika w Koszalinie</item>
+        <item>Zespół Szkół Ekonomicznych im Janusza Korczaka w Dębicy</item>
+        <item>Zespół Szkół Ekonomicznych</item>
+        <item>Zespół Szkół Ponadgimnazialnych Nr 3 im. Króla Jana III Sobieskiego w Stalowej Woli</item>
+        <item>Zespół Szkół Ekonomicznych i Ogólnokształcących</item>
+        <item>Zespół Szkół Elektronicznych</item>
+        <item>Zespół Szkół Elektrycznych</item>
+        <item>Zespół Szkół Mechanicznych w Łapach</item>
+        <item>Gimnazjum nr 1 w Malborku</item>
+        <item>Gimnazjum nr 1 im. Danuty Siedzikówny "Inki" w Ełku</item>
+        <item>Gimnazjum Nr 13</item>
+        <item>Gimnazjum nr 16 im.Fryderyka Chopina w Lublinie</item>
+        <item>Gimnazjum nr 2 z Oddziałami Integracyjnymi</item>
+        <item>Gimnazjum nr 2 im. Jana Pawła II w Lublińcu</item>
+        <item>Gimnazjum nr 2</item>
+        <item>Gimnazjum nr 3 z Oddziałami Sportowymi</item>
+        <item>Gimnazjum Akademickie w Łomży</item>
+        <item>Zespół Szkół Gastronomicznych w Łodzi</item>
+        <item>Gimnazjum Nr 1 w Głogowie</item>
+        <item>Gimnazjum nr 1 w Zgierzu</item>
+        <item>Gimnazjum Nr 1 w Sosnowcu</item>
+        <item>Gimnazjum nr 1</item>
+        <item>Gimnazjum nr 10</item>
+        <item>Gimnazjum nr 11</item>
+        <item>Gimnazjum nr 15</item>
+        <item>Gimnazjum nr 18</item>
+        <item>Gimnazjum nr 1 w Mielcu</item>
+        <item>Gimnazjum nr 1</item>
+        <item>Gimnazjum Samorządowe nr 2</item>
+        <item>Gimnazjum Nr 2 w Mielcu</item>
+        <item>Gimnazjum Nr 2 w Tarnowie</item>
+        <item>Gimnazjum Nr 3</item>
+        <item>Gimnazjum nr 3</item>
+        <item>Gimnazjum nr 5</item>
+        <item>Gimnazjum Nr 5</item>
+        <item>Gimnazjum Nr 7</item>
+        <item>Publiczne Gimnazjum Nr 8 z Oddziałami Integracyjnymi i Dwujęzycznymi w Radomiu</item>
+        <item>Gimnazjum im. Odkrywc?w Polskiej Miedzi w Chocianowie</item>
+        <item>Gimnajzum im. Mikołaja Kopernika w Golinie</item>
+        <item>Gimnazjum im. Karola Wojtyły w Kępicach</item>
+        <item>Gimnazjum nr 1 z Oddziałami Dwujęzycznymi w Konstantynowie Łódzkim</item>
+        <item>Publiczne Gimnazjum nr 1</item>
+        <item>Publiczne Gimnazjum w Gr?jcu</item>
+        <item>Publiczne Gimnazjum w Nawojowej</item>
+        <item>Gimnazjum im. Noblist?w Polskich w Olsztynku</item>
+        <item>Gimnazjum im. Kazimierza Jagiellończyka w Rzgowie</item>
+        <item>Gimnazjum im. J. Słowackiego ul. Daszyńskiego 23 33-340 Stary Sącz</item>
+        <item>Gimnazjum</item>
+        <item>GIMNAZJUM NR 124</item>
+        <item>GIMNAZJUM NR1</item>
+        <item>Gimnazjum nr 1 im Jana Pawła II ul. Kopernika 9 21-040 Świdnik</item>
+        <item>Zespół Szkół Ogólnokształcących nr 8</item>
+        <item>Publiczne Gimnazjum nr 2 z Oddziałami Integracyjnymi w Radomiu</item>
+        <item>Gimnazjum nr 3</item>
+        <item>Gimnazjum nr 4</item>
+        <item>Gimnazjum nr 9 im. Jana Pawła II w Rudzie Śląskiej</item>
+        <item>n. Dezyderego Chłapowskiego w Bojanowie</item>
+        <item>Zespół Szkół w Ulanowie</item>
+        <item>Gimnazjum im. Jana Pawła II w Żyrzynie</item>
+        <item>Gimnazjum nr 1 im. Jana Pawła II w Sokółce</item>
+        <item>Publiczne Gimnazjum im. Ofiar Katynia w Piątnicy</item>
+        <item>Gimnazjum im. Ojca Michała Tomaszka w Pieńsku</item>
+        <item>Publiczne Gimnazjum w Rakszawie</item>
+        <item>Gimnazjum</item>
+        <item>Gimnazjum Nr 1 im. Jana Pawła II w Sztumie</item>
+        <item>Gimnazjum Nr 1 im. Jana Pawła II</item>
+        <item>GIMNAZJUM NR 2</item>
+        <item>Gimnazjum nr 4</item>
+        <item>ZESPÓŁ SZKÓŁ OGÓLNOKSZTAŁLCĄCYCH</item>
+        <item>I Liceum Ogólnokształcące</item>
+        <item>Zespół Szkół Ogólnokształcących nr 2</item>
+        <item>III Liceum Ogólnokształcące</item>
+        <item>Zespół Szkół Ogólnokształcacych nr 1 w Tarnowie</item>
+        <item>Zespół Szkół</item>
+        <item>I Liceum Ogólnokształcące</item>
+        <item>Zespół Szkół Katolickich im. św. Jana Bosko Parafii św. Tomasza Apostoła</item>
+        <item>Zespół Szkół Katolickich</item>
+        <item>Zespół Szkół Ogólnokształcących Nr 1 w Puławach</item>
+        <item>Zespół Szkół im. Orła Białego w Kobylanach</item>
+        <item>I Liceum Ogólnokształcące w Mielcu</item>
+        <item>Liceum Ogólnokształcące</item>
+        <item>Zespół Szkół im. Mikołaja Kopernika</item>
+        <item>I Liceum Ogólnokształcące w Radomiu</item>
+        <item>I Liceum Ogólnokształcące</item>
+        <item>Zespół Szkół Ponadgimnazjalnych w Krynicy - Zdroju</item>
+        <item>I Liceum Ogólnokształcące</item>
+        <item>SZKOŁA PODSTAWOWA W KSIĄŻNICACH</item>
+        <item>Lubelskie Centrum Kształcenia Zawodowego i Ustawicznego</item>
+        <item>Zespół Szkół Zawodowych Nr 6</item>
+        <item>Zespół Szkół</item>
+        <item>Liceum Ogólnokształcace w Nowej Rudzie</item>
+        <item>I Liceum Ogólnokształcące</item>
+        <item>Medyczna Szkoła Policealna "Lider" w Lublinie</item>
+        <item>POLICEALNE STUDIUM ZAWODOWE DLA DOROSŁYCH "LIDER" W LUBLINIE</item>
+        <item>Liceum Ogólnokształcące im. Tadeusza Kościuszki w Lubaczowie</item>
+        <item>Liceum Ogólnokształcące z Oddziałami Integracyjnymi</item>
+        <item>I Liceum Ogólnokształcące im. Mikołaja Kopernika w Jarosławiu</item>
+        <item>ałcące w Lesku</item>
+        <item>Liceum Ogólnokształcące im. Hugona Kołłątaja</item>
+        <item>I Liceum Ogólnokształcące</item>
+        <item>I Liceum Ogólnokształcące</item>
+        <item>I Liceum Ogólnokształcące</item>
+        <item>Zespół Szkół Ogólnokształcących Nr 1</item>
+        <item>I Zespół Szkół Ogólnokształcących</item>
+        <item>Zespół Szkół Ogólnokształcących</item>
+        <item>II Liceum Ogólnokształcące w Chrzanowie</item>
+        <item>II Liceum Ogólnokształcące im. Hetmana Jana Zamoyskiego</item>
+        <item>Liceum Ogólnokształcące Nr II</item>
+        <item>Zespół Szkół Ogólnokształcących Nr 2</item>
+        <item>II Liceum Ogólnokształcęce im. Zbigniewa Herberta w Brzegu</item>
+        <item>II Liceum Ogólnokształcące im. Mikołaja Kopernika</item>
+        <item>II Liceum Ogólnokształcące</item>
+        <item>III Liceum Ogólnokształcące w Zamościu</item>
+        <item>Zespół Szkół Ogólnokształcących Nr 6</item>
+        <item>Zespół Szkół Nr 1</item>
+        <item>Liceum Ogólnokształcące w Bieczu</item>
+        <item>Liceum Ogólnokształcące w Czarnkowie</item>
+        <item>LICEUM OGÓLNOKSZTAŁCĄCE W GRODKOWIE</item>
+        <item>Zespół Szkół Ogólnokształcących</item>
+        <item>ZESPÓŁ SZKÓŁ</item>
+        <item>Zespół Szkół Ogólnakształcących w Biłgoraju</item>
+        <item>Liceum Ogólnokształcące im.Marii Dąbrowskiej w Pionkach</item>
+        <item>Zespół Szkół Ogólnokształcących</item>
+        <item>Zespół Szkół Publicznych w Rymanowie</item>
+        <item>Liceum Ogólnokształcące</item>
+        <item>Liceum Ogólnokształcące im. rotmistrza Witolda Pileckiego w Sulechowie</item>
+        <item>Liceum Ogólnokształcące w Sycowie</item>
+        <item>ZESPÓŁ SZKÓŁ LICEALNYCH</item>
+        <item>Liceum Ogólnokształcące Nr XV</item>
+        <item>I Liceum Ogólnokształcące im. Stefana Żeromskiego w Opocznie</item>
+        <item>Zespół Szkół Ogólnokształcących we Włocławku</item>
+        <item>Liceum Ogólnokształcące św. Marii Magdaleny</item>
+        <item>Zespół Szkół Zawodowych nr 2</item>
+        <item>Zespół Szkół Zawodowych Nr 1</item>
+        <item>Miejskie Gimnazjum Nr 1 im.Jana Pawła II w Knurowie</item>
+        <item>Miejskie Gimnazjum nr 2 im. Mikołaja Reja z oddziałami integracyjnymi</item>
+        <item>Samorządowy Zespół Szkół Ogólnokształcących nr 2</item>
+        <item>Zespół Szkół Technicznych</item>
+        <item>Zespół Szkół Dwujęzycznych</item>
+        <item>Miejskia Szkoła Podstawowa nr 6 w Knurowie</item>
+        <item>Miejski Zespół Szkół nr 1</item>
+        <item>Zespół Szkół</item>
+        <item>Powiatowe Centrum Kształcenia Zawodowego i Ustawicznego im. KEN w Jaworze</item>
+        <item>Publiczne Gimnazjum nr 1</item>
+        <item>Publiczne Gimnazjum nr 22 z Oddziałami Integracyjnymi im. Karola Wojtyły w Radomiu</item>
+        <item>Publiczne Gimnazjum nr 3 z Oddziałami Integracyjnymi w Siedlcach</item>
+        <item>Publiczne Gimnazjum nr 4</item>
+        <item>Publiczne Gimnazjum Nr 5 w Kluczborku</item>
+        <item>Publiczne Gimnazjum nr 5 im. Aleksandra Kamińskiego w Opolu</item>
+        <item>Publiczne Gimnazjum Nr 7 im.Generała Władysława Andersa w Opolu</item>
+        <item>Zespół Szkół Ponadgimnazjalnych nr 2</item>
+        <item>II Liceum Ogólnokształcące</item>
+        <item>Publiczne Liceum Ogólnokształcące Nr VI w Opolu</item>
+        <item>Międzynarodowa Szkoła Podstawowa "Paderewski" w Lublinie</item>
+        <item>I Liceum Ogólnokształcące im. B. Prusa w Siedlcach</item>
+        <item>II PRYWATNE LICEUM OGÓLNOKSZTAŁCĄCE</item>
+        <item>PRYWATNE GIMNAZJUM W KĘTRZYNIE</item>
+        <item>Publiczna Szkoła Podstawowa im. Stefana Żeromskiego w Wierzbicy</item>
+        <item>Publiczne Gimnazjum</item>
+        <item>Publiczna Szkoła Podstawowa nr 1 im. Jana Dzierżona w Kluczborku</item>
+        <item>Publiczna Szkoła Podstawowa Nr 5 z Oddziałami Integracyjnymi w Kluczborku</item>
+        <item>Publiczna Szkoła Podstawowa nr 5</item>
+        <item>Powiatowy Zespół Nr 4 Szkół Ekonomiczno-Gastronomicznych im. KEN w Oświęcimiu</item>
+        <item>Powiatowy Zespół Szkół Nr 1 w Krzyżowicach</item>
+        <item>Powiatowy Zespół Szkół nr 1</item>
+        <item>Powiatowy Zespół Szkół nr 2 w Trzebnicy</item>
+        <item>POWIATOWY ZESPÓŁ SZKÓŁ nr 2</item>
+        <item>Powiatowy Zespół Szkół w Bieruniu</item>
+        <item>Szkoła Podstawowa nr 2</item>
+        <item>Regionalne Centrum Edukacji Zawodowej w Biłgoraju</item>
+        <item>Zespół Szkoły Podstawowej i Gimnazjum</item>
+        <item>Publiczne Gimnazjum</item>
+        <item>Zespół Szkół Nr 2 w Kraśniku</item>
+        <item>Zespół Szkół w Rolach</item>
+        <item>Zespół Szkół Samochodowych</item>
+        <item>Powiatowy Zespół Szkół nr 1 im.gen. Józefa Bema</item>
+        <item>Zespół Szkół w Sicinach</item>
+        <item>SZKOŁA PODSTAWOWA NR 7</item>
+        <item>ZESPÓŁ SZKÓŁ NR 3</item>
+        <item>VI Liceum Ogólnokształcące im. Juliusza Słowackiego w Kielcach</item>
+        <item>Niepubliczne Liceum Ogólnokształcące Szkoła Mistrzostwa Sportowego Polskiego Związku Koszykówki we Władysławowie</item>
+        <item>LICEUM OGÓLNOKSZTAŁCĄCE MISTRZOSTWA SPORTOWEGO SIARKA W TARNOBRZEGU</item>
+        <item>Specjalny Ośrodek Szkolno-Wychowawczy nr 1</item>
+        <item>Specjalny Ośrodek Szkolno-Wychowawczy nr 1 w Lublinie</item>
+        <item>Szkoła Podstawowa</item>
+        <item>Szkoła Podstawowa w Osinach</item>
+        <item>Zespół Szkolno-Przedszkolny</item>
+        <item>Szkoła Podstawowa</item>
+        <item>Szkoła Podstawowa nr 1</item>
+        <item>Szkoła Podstawowa nr 1</item>
+        <item>Szkoła Podstawowa nr 1 w Żywcu</item>
+        <item>Szkoła Podstawowa nr 10</item>
+        <item>Szkoła Podstawowa Nr 11 w Rzeszowie</item>
+        <item>Szkoła Podstawowa nr 118</item>
+        <item>SZKOŁA PODSTAWOWA NR 11 W JELENIEJ GÓRZE</item>
+        <item>Szkoła Podstawowa nr 12 im.Michała Kajki</item>
+        <item>Szkoła Podstawowa nr 12</item>
+        <item>Szkoła Podstawowa nr 13 im Stefanii Sempołowskiej</item>
+        <item>Szkoła Podstawowa nr 15</item>
+        <item>Szkoła Podstawowa nr 15</item>
+        <item>Szkoła Podstawowa Nr 17 Mistrzostwa Sportowego im. Stanisława Ligonia</item>
+        <item>Szkoła Podstawowa nr 17 z Oddziałami Integracyjnymi</item>
+        <item>SZKOŁA PODSTAWOWA NR 18</item>
+        <item>Szkoła Podstawowa nr 1 im. Armii Krajowej w Gostyninie</item>
+        <item>Szkoła Podstawowa Nr 1 im. Janusza Korczaka w Lądku Zdroju</item>
+        <item>Szkoła Podstawawa nr 1</item>
+        <item>Szkoła Podstawowa nr 1 w Sokółce</item>
+        <item>Szkoła Podstawowa Nr 1 w Żołyni</item>
+        <item>Szkoła Podstawowa Nr 2 im. Bolesława Ścibiorka</item>
+        <item>Zespół Szkół Gminnych nr 2 w Małkini Górnej</item>
+        <item>Szkoła Podstawowa nr 2 w Ełku im. I Dywizji Tadeusza Kościuszki</item>
+        <item>Szkoła Podstawowa nr 20</item>
+        <item>Szkoła Podstawowa Nr 20 z Oddziałami Integracyjnymi im. Stefana Kardynała Wyszyńskiego</item>
+        <item>Szkoła Podstawowa z Oddziałami Integracyjnymi nr 21</item>
+        <item>Szkoła Podstawowa Nr 21 z Oddziałami Integracyjnymi im. Świętego Jana Pawła II w Nowym Sączu</item>
+        <item>Szkoła Podstawowa nr 22</item>
+        <item>Szkoła Podstawowa Nr 220</item>
+        <item>Szkoła Podstawowa nr 258</item>
+        <item>Szkoła Podstawowa nr 28 z Oddziałami Integracyjnymi im. Synów Pułku Ziemi Lubelskiej w Lublinie</item>
+        <item>Szkoła Podstawowa nr 28</item>
+        <item>Szkoła Podstawowa nr 2</item>
+        <item>Szkoła Podstawowa Nr 2 w Głogowie</item>
+        <item>Szkoła Podstawowa nr 2</item>
+        <item>Szkoła Podstawowa nr 2 w Obornikach Śląskich</item>
+        <item>Szkoła Podstawowa nr 2 w Skierniewicach</item>
+        <item>SZKOŁA PODSTAWOWA NR 3</item>
+        <item>Szkoła Podstawowa nr 30 im. Króla Kazimierza Wielkiego w Lublinie</item>
+        <item>Szkoła Podstawowa nr 36</item>
+        <item>Szkoła Podstawowa nr 38</item>
+        <item>Szkoła Podstawowa nr 3</item>
+        <item>Szkoła Podstawowa nr 3</item>
+        <item>Szkoła Podstawowa nr 3</item>
+        <item>Szkoła Podstawowa Nr 4</item>
+        <item>Szkoła Podstawowa nr 4 im. Władysława Broniewskiego w Rawiczu</item>
+        <item>Szkoła Podstawowa Nr 4 w Andrychowie</item>
+        <item>Szkoła Podstawowa nr 4 w Zakopanem</item>
+        <item>Szkoła Podstawowa nr 4 w Zgierzu</item>
+        <item>Zespół Szkolno-Przedszkolny Nr 3 w Gliwicach</item>
+        <item>Szkoła Podstawowa Nr 5</item>
+        <item>Szkoła Podstawowa Nr 53</item>
+        <item>Zespół Szkół nr 36</item>
+        <item>Szkoła Podstawowa Nr 5</item>
+        <item>Szkoła Podstawowa Nr 6</item>
+        <item>Szkoła Podstawowa nr 6</item>
+        <item>Szkoła Podstawowa nr 6</item>
+        <item>Zespół Szkolno- Przedszkolny Nr 1 w Rzeszowie</item>
+        <item>Szkoła Podstawowa nr 65</item>
+        <item>Szkoła Podstawowa nr 65</item>
+        <item>Szkoła Podstawowa nr 6 w Rumi</item>
+        <item>Zespół Szkolno-Przedszkolny nr 1</item>
+        <item>Szkoła Podstawowa nr 7 im. ks. Jana Twardowskiego</item>
+        <item>Szkoła Podstawowa Nr 7</item>
+        <item>Szkoła Podstawowa Nr 71</item>
+        <item>Szkoła Podstawowa nr 8 z Oddziałami Integracyjnymi w Koninie</item>
+        <item>Szkoła Podstawowa nr 8</item>
+        <item>Szkoła Podstawowa Nr 9</item>
+        <item>Szkoła Podstawowa nr 9</item>
+        <item>Szkoła Podstawowa nr 98</item>
+        <item>Szkoła Podstawowa nr 9 im. Jana Brzechwy w Katowicach</item>
+        <item>Szkoła Podstawowa im. gen. Stanisława Maczka w Boguchwale</item>
+        <item>Zespół Szkół Nr 5 - Specjalnych</item>
+        <item>Szkoła Podstawowa w Janowcu Wielkopolskim</item>
+        <item>Szkoła Podstawowa im.Tadeusza Kościuszki w Kamieniu</item>
+        <item>Szkoła Podstawowa im.Edmunda Bojanowskiego</item>
+        <item>Publiczna Szkoła Podstawowa w Łambinowicach</item>
+        <item>Szkoła Podstawowa w Płowężu</item>
+        <item>Zespół Szkół Społecznych nr 1 im.Armii Krajowej w Stalowej Woli</item>
+        <item>Szkoła Podstawowa w Przeźmierowie</item>
+        <item>Zespół Szkół Przymierza Rodzin nr 3</item>
+        <item>Szkoła Podstawowa im. Jana Długosza w Rzgowie</item>
+        <item>Szkoła Podstawowa im. 27 WDP AK w Skrobowie</item>
+        <item>Samorządowa Szkoła Podstawowa Nr 2 we Wrześni</item>
+        <item>Zespół Szkół Licealnych i Technicznych nr 1</item>
+        <item>Zespół Szkół Nr 2 w Hrubieszowie</item>
+        <item>Zespół Szkół Ogólnokształcących i Zawodowych im. mjra Henryka Sucharskiego w Bolesławcu</item>
+        <item>ZESPÓŁ KSZTAŁCENIA PODSTAWOWEGO I GIMNAZJALNEGO NR 17 Z KLASAMI SPORTOWYMI</item>
+        <item>Zespół Szkół w Pruchnej</item>
+        <item>Ośrodek Dokształcania i Doskonalenia Zawodowego Cechu Rzemiosł Różnych i Przedsiębiorczości</item>
+        <item>Dolnośląski Zakład Doskonalenia Zawodowego we Wrocławiu Zespół Szkół Zasadnicza Szkoła Zawodowa nr 9</item>
+        <item>Zespół Szkół w Kościelcu</item>
+        <item>Zespół Szkół Architektoniczno - Budowlanych i Licealnych</item>
+        <item>Zespół Szkół Mechaniczno-Elektrycznych im. Kazimierza Pułaskiego</item>
+        <item>Zespół Szkół Drogowo-Geodezyjnych i Licealnych w Jarosławiu</item>
+        <item>Zespół Szkół Elektryczno-Elektronicznych</item>
+        <item>III Liceum Ogólnokształcące</item>
+        <item>III Liceum Ogólnokształcące</item>
+        <item>V Liceum Ogólnokształcące</item>
+        <item>Zespół Szkół Ponadgimnazjalnych Nr 20</item>
+        <item>Zespół Szkół nr 1</item>
+        <item>XI Liceum Ogólnokształcące w Białymstoku</item>
+        <item>Zachodniopomorskie Centrum Edukacji Morskiej i Politechnicznej</item>
+        <item>Zespół Szkół Ogólnokształcących Nr 1 w Jeleniej Górze</item>
+        <item>Zespół Szkół Technicznych i Ogólnokształcących im. Stefana Żeromskiego</item>
+        <item>Zespół Szkół w Pietrowicach Wielkich</item>
+        <item>Zespół Szkół w Wolbromiu</item>
+        <item>Zespół Szkół w Złotym Potoku</item>
+        <item>IV Liceum Ogólnokształcące</item>
+        <item>Zespół Placówek Oświatowych im. Unii Europejskiej</item>
+        <item>Zespół Szkół Nr 1w Piekarach Śląskich</item>
+        <item>Zespół Szkół Bielice</item>
+        <item>Zespół Szkół w Chorzelowie</item>
+        <item>ZESPÓŁ SZKÓŁ</item>
+        <item>Zespół Szkół Publicznych im. Jana Pawła II w Łazach</item>
+        <item>Zespół Szkół w Ostrowie</item>
+        <item>Zespół Szkół Technicznych w Strzyżowie</item>
+        <item>Zespół Szkół</item>
+        <item>Zespół Szkół im. prof. J. Groszkowskiego</item>
+        <item>Zespół Szkół</item>
+        <item>Zespół Szkół im. Narodów Zjednoczonej Europy w Polkowicach</item>
+        <item>Zespół Szkół w Strzegomiu</item>
+        <item>Zespół Szkół Nr 1</item>
+        <item>Zespół Szkół Nr 1</item>
+        <item>Zespół Szkół Nr 1</item>
+        <item>Zespół Szkół nr 1 im. Stefanii Sempołowskiej</item>
+        <item>Zespół Szkół nr 12 w Lublinie</item>
+        <item>Zespół Szkół nr 14</item>
+        <item>Zespół Szkół Nr 18</item>
+        <item>Zespół Szkół Nr 1 w Bukownie</item>
+        <item>Zespół Szkół nr 1</item>
+        <item>Zespół Szkół nr 1 im. Stanisława Staszica w Szczytnie</item>
+        <item>ZESPÓŁ SZKÓŁ NR 2 im. S. KONARSKIEGO WE WRONKACH</item>
+        <item>Zespół Szkół nr 26</item>
+        <item>Zespół Szkół nr 2 - Szkoła Podstawowa nr 2 i Gimnazjum nr 2 w Bieczu</item>
+        <item>Zespół Szkół Nr 3 im. Władysława Stanisława Reymonta w Łukowie</item>
+        <item>Zespół Szkół Nr 3</item>
+        <item>Zespół Szkół Nr 3 z Oddziałami Integracyjnymi w Rzeszowie</item>
+        <item>Zespół Szkół nr 3 im. ks. Jana Twardowskiego</item>
+        <item>Zespoł Szkół nr 4 w Nowym Sączu</item>
+        <item>Zespół Szkół nr 4 w Suwałkach</item>
+        <item>Zespół Szkół Nr 5 w Ełku</item>
+        <item>Zespół Szkół nr 5 im. Jana Pawła II Lublinie</item>
+        <item>Zespół Szkół Nr 5 w Rzeszowie</item>
+        <item>Zespół Szkół nr 5</item>
+        <item>Zespół Szkół Agrotechnicznych</item>
+        <item>Zespół Szkół im. gen. W. Andersa</item>
+        <item>Zespół Szkół Budowlanych w Bolesławcu</item>
+        <item>Zespół Szkół Budownictwa i Kształcenia Zawodowego im. Eugeniusza Kwiatkowskiego w Koninie</item>
+        <item>Zespół Szkół Budowlanych w Tarnowie</item>
+        <item>Zespół Szkół Budowlano-Drzewnych</item>
+        <item>Zespół Szkół Nr 2</item>
+        <item>Zespół Szkół w Chocianowie</item>
+        <item>Zespół Szkół Ponadgimnazjalnych w Czchowie</item>
+        <item>Zespół Szkół Elektronicznych im. I. Domeyki w Bolesławcu</item>
+        <item>Zespół Szkół Elektronicznych</item>
+        <item>Zespół Szkół Energetycznych</item>
+        <item>Zespół Szkół Ekonomicznych w Głogowie</item>
+        <item>Zespół Szkół Ekonomicznych</item>
+        <item>Zespół Szkół Ekonomiczno-Chemicznych w Trzebini</item>
+        <item>Zespół Szkół Ekonomiczno-Gastronomicznych</item>
+        <item>Zespół Szkół Ekonomiczno-Handlowych</item>
+        <item>Zespół Szkół Elektronicznych i Informatycznych im. "KEN"</item>
+        <item>Zespół Szkół Elektrycznych nr 1</item>
+        <item>Zespół Szkół nr 12</item>
+        <item>Zespół Szkół Elektryczno-Mechanicznych</item>
+        <item>ZESPÓŁ SZKÓŁ TECHNICZNYCH I LICEALNYCH</item>
+        <item>ZESPÓŁ SZKÓŁ EKONOMICZNYCH</item>
+        <item>Zespół Szkół Energetycznych im. gen. Wł. Sikorskiego</item>
+        <item>ZESPÓŁ SZKÓŁ EKONOMICZNO - OGRODNICZYCH</item>
+        <item>Zespół Szkół Ekonomicznych</item>
+        <item>Zespół Szkół Ekonomicznych</item>
+        <item>Zespół Szkół w Gnojnicy Dolnej</item>
+        <item>Zespół Szkół Geodezyjno-Drogowych</item>
+        <item>Zespół Szkół Gastronomiczno-Hotelarskich w Toruniu</item>
+        <item>Zespół Szkół Gastronomiczno-Hotelarskich</item>
+        <item>Zespół Szkół Gospodarki Żywnościowej i Agrobiznesu</item>
+        <item>Zespół Szkół Handlowych</item>
+        <item>Zespół Szkół Informatycznych</item>
+        <item>Zespół Szkół im. Bohaterów Września 1939 Roku w Iławie</item>
+        <item>Zespół Szkół w Iwoniczu - Zdroju</item>
+        <item>Zespół Szkół w Komornie</item>
+        <item>Zespół Szkół w Konieczkowej</item>
+        <item>Zespół Szkół Kształcenia Ustawicznego</item>
+        <item>Zespół Szkół Łączności</item>
+        <item>Zespół Szkół</item>
+        <item>Zespół Szkół w Lisięcicach</item>
+        <item>Zespół Szkół Licealno-Technicznych</item>
+        <item>Zespół Szkół Mechanicznych w Głubczycach</item>
+        <item>Zespół Szkół w Maszewie Dużym</item>
+        <item>Zespół Szkół Mechaniczno-Energetycznych</item>
+        <item>Zespół Szkół im.St.Mikołajczyka w Miejskiej Górce</item>
+        <item>Zespół Szkół im. Tadeusza Kościuszki</item>
+        <item>Zespół Szkół w Mosinie</item>
+        <item>Zespół Szkół nr 3 im. Mikołaja Kopernika w Łańcucie</item>
+        <item>ZESPÓŁ SZKÓŁ NR 1 W DZIAŁDOWIE</item>
+        <item>Zespół Szkół nr 2</item>
+        <item>Zespół Szkół Ponadgimnazjalnych Nr 2</item>
+        <item>Zespół Szkół Nr 2 w Nowym Sączu</item>
+        <item>Zespół Szkół nr 3 w Hrubieszowie</item>
+        <item>Zespół Szkół Ogólnokształcących w Kowarach</item>
+        <item>Zespół Szkół Ogólnokształcących im. Edwarda Szylki w Ożarowie</item>
+        <item>Zespół Szkół Ogólnokształcących</item>
+        <item>Zespół Szkół Ogólnokształcących i Technicznych</item>
+        <item>Zespół Szkół Ogólnokształacych Nr I w Opolu</item>
+        <item>Zespół Szkół Ogólnokształcacych Nr 2 w Stalowej Woli</item>
+        <item>Zespół Szkół Ogólnokształcących Nr 3 w Legnicy</item>
+        <item>Zespół Szkół Ogólnokształcących nr 5</item>
+        <item>Zespół Szkół Ogólnokształcących nr 6 w Kielcach</item>
+        <item>Zespół Szkół Ogólnokształcących Nr 9 w Białymstoku</item>
+        <item>Zespół Szkół w Żelechowie</item>
+        <item>Zespół Szkół Ogólnokształcących i Zawodowych w Solcu Kujawskim</item>
+        <item>Zespół Szkół Ogólnokształcących w Jedlni - Letnisku</item>
+        <item>Zespół Szkół Ogólnokształcących w Krasnobrodzie</item>
+        <item>Zespół Szkół Ogólnokształcących</item>
+        <item>ZESPÓŁ SZKÓŁ OGÓLNOKSZTAŁCĄCYCH</item>
+        <item>Zespół Szkół Ogólnokształcących Nr 1</item>
+        <item>Zespół Szkół Ogólnokształcących w Słomnikach</item>
+        <item>Zespół Szkół Odzieżowo- Włókienniczych w Lublinie</item>
+        <item>Zespół Szkół Ponadgimnazjalnych Nr 2</item>
+        <item>Zespół Szkół Ponadgimnazjalnych w Kościanie</item>
+        <item>Zespół Szkół Ponadgimnazjalnych</item>
+        <item>Zespół Szkół Ponadgimnazjalnych</item>
+        <item>ZESPÓŁ SZKÓŁ PUBLICZNYCH</item>
+        <item>Zespół Szkół Ponadgimnazjalnych w Szczercowie</item>
+        <item>Zespól Szkół Ponadgimnazjalnych nr 1</item>
+        <item>Zespół Szkół Ponadgimnazjalnych nr 1</item>
+        <item>Zespół Szkół Ponadgimnazjalnych nr 1</item>
+        <item>Zespół Szkół Ponadgimnazjalnych nr 1</item>
+        <item>Zespół Szkół Ponadgimnazjalnych nr 1 w Łęczycy</item>
+        <item>Zespół Szkół Ponadgimnazjalnych nr 1 w Tarnobrzegu</item>
+        <item>Zespół Szkół Ponadgimnazjalnych nr 2 w Brzesku</item>
+        <item>Zespół Szkół Ponadgimnazjalnych nr 2</item>
+        <item>Zespół Szkół Ponadgimnazjalnych Nr 2</item>
+        <item>Zespół Szkół Ponadgimnazjalnych nr 2</item>
+        <item>Zespół Szkół Ponadgimnazjalnych nr 3</item>
+        <item>Zespół Szkół Ponadgimnazjalnych Nr 3 w Zamościu</item>
+        <item>Zespół Szkół Ponadgimnazjalnych Nr 4</item>
+        <item>Zespół Szkół Ponadgimnazjalnych nr 4</item>
+        <item>Zespół Szkół Ponadgimnazjalnych nr 9</item>
+        <item>Zespół Szkół Ponadgimnazjalnych im. Józefa Nojego w Czarnkowie</item>
+        <item>Zespół Szkół Ponadgimnazjalnych w Grójcu</item>
+        <item>ZESPÓŁ SZKÓŁ Piaski</item>
+        <item>Zespół Szkół w Piątkowej</item>
+        <item>Zespół Szkół Ponadgimnazjalnych w Jasieńcu</item>
+        <item>Zespół Szkół Poligraficzno-Medialnych</item>
+        <item>Zespół Szkół Ponadgimnazjalnych im. Orła Białego w Międzyborzu</item>
+        <item>Zespół Szkół Ponadgimnazjalnych Nr 5</item>
+        <item>ZESPÓŁ SZKÓŁ PUBLICZNYCH W POSADZIE GÓRNEJ</item>
+        <item>Zespół Szkół Przemysłu Spożywczego i VIII Liceum Ogólnokształcące</item>
+        <item>Zespół Szkół Przyrodniczo-Usługowych i Bursy Szkolnej w Jeleniej Górze</item>
+        <item>Zespół Szkół Ponadgimnazjalnych w Warce</item>
+        <item>Zespół Szkół Rolniczych Centrum Kształcenia Praktycznego</item>
+        <item>Zespół Szkół Rolnicze Centrum Kształcenia Ustawicznego im. Stanisława Staszica w Kościelcu</item>
+        <item>Zespół Szkół Rolnicze Centrum Kształcenia Ustawicznego w Piasecznie</item>
+        <item>ZESPÓŁ SZKÓŁ W RESZLU</item>
+        <item>ZESPÓŁ SZKÓŁ ROLNICZYCH CENTRUM KSZTAŁCENIA PRAKTYCZNEGO</item>
+        <item>ZESPÓŁ SZKÓŁ ROLNICZYCH W ŚRODZIE WLKP.</item>
+        <item>Zespół Szkół</item>
+        <item>Zespół Szkół Rzemiosła i Przedsiebiorczości w Lublinie</item>
+        <item>Zespół Szkół Rolnicze Centrum Kształcenia Ustawicznego w Żarnowcu</item>
+        <item>Zespół Szkół Specjalnych w Rawiczu</item>
+        <item>ZESPÓŁ SZKÓŁ SPORTOWYCH</item>
+        <item>Zespół Szkół Samochodowych im. Stanisława Syroczyńskiego w Lublinie</item>
+        <item>Zespół Szkół Samochodowych</item>
+        <item>Zespół Szkół Spożywczych</item>
+        <item>Zespół Szkół Samochodowych</item>
+        <item>Zespół Szkół Samorządowych nr 3 w Opocznie</item>
+        <item>Zespół Szkół Samochodowych</item>
+        <item>Zespół Szkół w Sieniawie</item>
+        <item>Zespół Szkół</item>
+        <item>ZESPÓŁ SZKÓŁ "SILESIA"</item>
+        <item>ZESPÓŁ SZKÓŁ SPORTOWYCH I OGÓLNOKSZTAŁCĄCYCH</item>
+        <item>Zespół Szkół w Skępem</item>
+        <item>Zespół Szkół Sportowych</item>
+        <item>Zespół Szkół Samorządowych w Rzykach</item>
+        <item>Zespół Szkół Technicznych im. Tadeusza Kościuszki</item>
+        <item>Zespół Szkół Technicznych</item>
+        <item>Zespół Szkół Technicznych w Trzciance</item>
+        <item>ZESPÓŁ SZKÓŁ TECHNICZNYCH</item>
+        <item>Zespół Szkół Techniczno-Ekonomicznych</item>
+        <item>Zespół Szkół Tekstylno - Gospodarczych w Rakszawie</item>
+        <item>Zespół Szkół Techniczno-Informatycznych w Mszanie Dolnej</item>
+        <item>Zespół Szkół Teleinformatycznych i Elektronicznych</item>
+        <item>Zespół Szkół Technicznych i Hutniczych</item>
+        <item>Zespół Szkół Technicznych i Licealnych</item>
+        <item>Zespół Szkół Technicznych i Ogólnokształcących</item>
+        <item>Zespół Szkół Technicznych i Ogólnokształcących w Jarosławiu</item>
+        <item>Zespół Szkół Technicznych</item>
+        <item>Zespół Szkół Technicznych nr 2</item>
+        <item>Zespół Szkół Technicznych</item>
+        <item>Zespół Szkół Techniczno - Zawodowych</item>
+        <item>ZESPÓŁ SZKÓŁ IM. HENRYKA SIENKIEWICZA W WOJCIESZKOWIE</item>
+        <item>Zespół Szkół w Woli</item>
+        <item>Zespół Szkół Zawodowych</item>
+        <item>Zespół Szkół Zawodowych</item>
+        <item>Zespół Szkół Zawodowych Nr 1</item>
+        <item>ZESPÓŁ SZKÓŁ ZAWODOWYCH NR1 IM. MARII SKŁODOWSKIEJ-CURIE W BRZEGU</item>
+        <item>Zespół Szkół Zawodowych nr 2</item>
+        <item>Zespół Szkół Zawodowych nr 4 im. A. Chętnika</item>
+        <item>Zespół Szkół Architektury Krajobrazu i Handlowo-Usługowych</item>
+        <item>Zespół Szkół Zawodowych im. św. Barbary</item>
+        <item>Zespół Szkół im. gen. Sylwestra Kaliskiego</item>
+        <item>Zespół Szkół Zawodowych w Grybowie</item>
+        <item>Zespół Szkół Zawodowych w Iłowie - Osadzie</item>
+        <item>Zespół Szkół Technicznych w Janowie Lubelskim</item>
+        <item>Zespół Szkół Zawodowych</item>
+        <item>Zespół Szkół Zawodowych w Rawiczu</item>
+        <item>Zespół Szkół Specjalnych im. Janusza Korczaka</item>
+        <item>Zespół Szkół Zawodowych im. gen. Władysława Sikorskiego</item>
+        <item>Centrum Ksztalcenia Zawodowego i Ustawicznego</item>
+        <item>Zgierski Zesp?l Szk?l Ponadgimnazjalnych w Zgierzu</item>
+        <item>Zespół Szkół</item>
+        <item>Wieloprofilowy Zespół Szkół</item>
+        <item>Zespół Szkół nr 23</item>
+        <item>Zespół Placówek Oświatowych nr 2</item>
+        <item>Zespół Szkół nr 1 im. Powstańców Śląskich w Kędzierzynie-Koźlu</item>
+        <item>Zespół Szkół Nr 1</item>
+        <item>Zespół Szkół nr 1 w Alwerni</item>
+        <item>Zespół Szkół Nr 1</item>
+        <item>Zespół Szkół</item>
+        <item>Zespół Szkół Nr 2 w Sanok</item>
+        <item>Zespół Szkół Nr 23 we Wrocławiu</item>
+        <item>Zespół Szkół Nr 2 im. Jana Kochanowskiego w Łańcucie</item>
+        <item>Zespół Szkół nr 3 w Pile</item>
+        <item>Zespół Szkół Centrum Kształcenia Rolniczego w Suwałkach</item>
+        <item>Zespół Szkół Centrum Kształcenia Rolniczego w Bogdańczowicach</item>
+        <item>Zespół Szkół Centrum Kształcenia Ustawicznego im. Stefana Batorego w Koninie</item>
+        <item>Zespół Szkół w Cmolasie</item>
+        <item>ZESPÓŁ SZKÓŁ EKONOMICZNYCH W PILE</item>
+        <item>Zespół Szkół Elektronicznych i Licealnych</item>
+        <item>Zespół Szkół Energetycznych i Usługowych w Łaziskach Górnych</item>
+        <item>Zespół Szkół Energetycznych im. prof. Kazimierza Drewnowskiego w Lublinie</item>
+        <item>Zespół Szkół Ekonomicznych</item>
+        <item>Zespół Szkół w Kąkolewie</item>
+        <item>Zespół Szkół Licealno-Technicznych w Kluczborku</item>
+        <item>Zespół Szkół Mechanicznych</item>
+        <item>Zespół Szkół Mechanicznych Nr 2</item>
+        <item>Zespół Szkół Mechaniczno-Elektrycznych w Ełku</item>
+        <item>Zespół Szkół Mechaniczno-Elektronicznych</item>
+        <item>Zespół Szkół im. Ksiedza Franciszka Stopy w Myczkowie</item>
+        <item>ZESPÓŁ SZKÓŁ OGÓLNOKSZTAŁCACYCH</item>
+        <item>Zespół Szkół Ogólnokształcących</item>
+        <item>Zespół Szkół Ogólnokształcących nr 1</item>
+        <item>ZESPÓŁ SZKÓŁ OGÓLNOKSZTAŁCĄCYCH NR 1</item>
+        <item>Zespół Szkół Ogólnokształcących nr 4 im. Orlat Lwowskich</item>
+        <item>Zespół Szkół Ogólnokształcących nr 5</item>
+        <item>Centrum Kształcenia Zawodowego i Ustawicznego w Tuchowie</item>
+        <item>Zespół Szkół Ponadgimnazjalnych w Lubaniu</item>
+        <item>ZESPÓŁ SZKÓŁ PONADGIMNAZJALNYCH NR 2</item>
+        <item>Zespół Szkół Ponadgimnazjalnych w Białobrzegach</item>
+        <item>Zespół Szkolno-Przedszkolny w Ligocie Książęcej</item>
+        <item>Zespół Szkół Ponadgimnazjalnych Nr 1</item>
+        <item>Zespół Szkolno-Przedszkolny w Paniówkach</item>
+        <item>Zespół Szkół Politechnicznych</item>
+        <item>NIEPUBLICZNE TECHNIKUM FRYZJERSKIE W LUBLINIE</item>
+        <item>Zespół Szkół Specjalnych im. Marii Konopnickiej w Kościanie</item>
+        <item>Zespół Szkół Samochodowych</item>
+        <item>Zespół Szkół Samochodowo-Budowlanych</item>
+        <item>Zespół Szkół w Sokołowie Małopolskim</item>
+        <item>ZESPÓŁ SZKÓŁ TECHNICZNYCH</item>
+        <item>Zespół Szkół Technicznych w Augustowie</item>
+        <item>Zespół Szkół Technicznych</item>
+        <item>Zespół Szkół Techniczno - Informatycznych</item>
+        <item>Zespół Szkół Technicznych w Łańcucie</item>
+        <item>Zespół Szkół w Adamowie</item>
+        <item>Zespół Szkół Zawodowych</item>
+        <item>Zespół Szkół w Zagórzu</item>
+        <item>Zespół Szkół Zawodowych i Ogólnokształcących w Sułkowicach</item>
+        <item>Ośrodek Dokształcania i Doskonalenia Zawodowego w Słupcy</item>
+        <item>ZESPÓŁ SZKÓŁ ZAWODOWYCH</item>
+    </string-array>
+    <string-array name="timetables_urls">
+        <item>http://16lo.tarman.pl/wp-content/pgodzin/index.html</item>
+        <item>http://www.2lochojnice.pl/plan/</item>
+        <item>http://www.halogen.org.pl/plan17/index.html</item>
+        <item>http://plan.baczynski.org</item>
+        <item>http://budowlanka.legnica.pl/planzajec/plany.html</item>
+        <item>http://budowlanka1.edu.pl/plan/</item>
+        <item>http://ckziu1przemysl.pl/images/plan/index.html</item>
+        <item>http://dwojka.tbg.net.pl/plan/index.html</item>
+        <item>http://plan.ekonomik-kielce.edu.pl</item>
+        <item>http://www.plan.ekonomikzamosc.pl/</item>
+        <item>http://g1.lublin.eu/plan10/index1.html</item>
+        <item>http://g10rybnik.pl/g10rybnik/plan_lekcji/</item>
+        <item>http://gim2.gda.pl/plan_lekcji/index.html</item>
+        <item>http://www.awretgimn.nazwa.pl</item>
+        <item>http://gimwie.edu.pl/plan-lekcji/</item>
+        <item>http://planlekcji.jedynka.org</item>
+        <item>http://kopernikus.pl/plan/plan.html</item>
+        <item>http://lo.opatow.ids.pl/plan-lekcji/index.html</item>
+        <item>http://lo.pila.pl/planlekcji/</item>
+        <item>http://lo01.pl/plan/</item>
+        <item>http://lo1.sandomierz.pl/plany/ostatni/index.html</item>
+        <item>http://logostyn.pl/images/plan/</item>
+        <item>http://loprzeworsk.pl/plan_lekcji/</item>
+        <item>http://loropczyce.info/plan/</item>
+        <item>http://lubiejewo.republika.pl/planlekcji/plan.html</item>
+        <item>https://lukasiewicz.gorlice.pl/planlekcji/</item>
+        <item>http://plan.zszglogow.pl</item>
+        <item>http://mietne.edu.pl/plan/</item>
+        <item>http://wislina.szkolnastrona.pl/p,127,plan-lekcji</item>
+        <item>http://www.1lo-tomaszow.com.pl/plan/</item>
+        <item>http://1lo.bochnia.pl//plan_lekcji/index.html</item>
+        <item>http://1lo.com.pl/plan/index.html?controller=organizer-9&amp;params=plan-lekcji-132</item>
+        <item>http://www.1lo.lubin.pl/planLekcji/</item>
+        <item>http://e-kosciuszko.pl/plan/</item>
+        <item>http://1lo.torun.pl/plan/</item>
+        <item>http://www.1lowyszkow.home.pl/index.php?id=plan&amp;cmd=index_o</item>
+        <item>http://www.sp3zory.webd.pl/sp3plan/</item>
+        <item>http://2lo.legnica.eu/plan/</item>
+        <item>http://www.2lo.bydgoszcz.pl/plan/index.html</item>
+        <item>http://2lo.rz.pl/plan-lekcji/</item>
+        <item>http://2lozamosc.pl/html/index.html</item>
+        <item>http://33.poznan.pl/plan/index.html</item>
+        <item>http://plan.3lo.bydgoszcz.pl/</item>
+        <item>http://www.lo3.resman.pl/plan/</item>
+        <item>http://www.4lo.bydgoszcz.pl/images/stories/plan/index.html</item>
+        <item>http://www.4lo.lublin.pl/odpazdziernika/index.html</item>
+        <item>http://plan.5gim.lublin.pl/</item>
+        <item>http://5lo.lublin.pl/plan_lekcji/index.html</item>
+        <item>http://www.7lo.torun.pl/plan/</item>
+        <item>http://acedu.pl/www-plan/index.html</item>
+        <item>http://adastra.edu.pl/plan/</item>
+        <item>http://zastepstwa.almalo.edu.pl/plan/</item>
+        <item>http://www.batory.edu.pl/plan/2017_11_06/index.html</item>
+        <item>http://biskupiak.lublin.pl/Plan_lekcji/</item>
+        <item>http://zsbzakopane.nazwa.pl/www/plek/</item>
+        <item>http://cksulechow.pl/plan/index.html</item>
+        <item>http://ckziu25.sosnowiec.pl/plan/cku/</item>
+        <item>http://www.ckziu-wiecbork.pl/plan_lekcji/</item>
+        <item>http://www.ckziu.zory.pl/ftp/index.html</item>
+        <item>http://www.ckziuludowpolski.pl/plan/</item>
+        <item>http://www.czernichow.edu.pl/../Plan_od_02.10.2017r._modyfikacja_od_03.10.2017r/index.html</item>
+        <item>http://www.dlugosz.nazwa.pl/plan/</item>
+        <item>http://drukarska.net/plan_lekcji/index.html</item>
+        <item>http://dziewiatka.edu.pl/plan/</item>
+        <item>http://www.ekonom.koszalin.pl/plan/index.html</item>
+        <item>http://zsedebica.pl/dokumenty/plan/index.html</item>
+        <item>http://www.ekonomik.rzeszow.pl/plan.html</item>
+        <item>http://www.ekonomik.vot.pl/plan_lekcji/</item>
+        <item>http://ekonomikjaroslaw.pl/wdps/pl/index.html</item>
+        <item>http://www.elektronik.rzeszow.pl/plan-lekcji/</item>
+        <item>http://plan.elektryk.opole.pl</item>
+        <item>https://fajnaszkola.net/plan/</item>
+        <item>http://www.g1.malbork.pl/plan/index.html</item>
+        <item>http://www.g1.miasto.elk.pl/pliki/plan/index.html</item>
+        <item>http://g13olsztyn.pl/plan/index.html</item>
+        <item>http://plan.g16-lublin.eu</item>
+        <item>http://foto.098.pl/plang2/index.html</item>
+        <item>http://www.g2.lubliniec.pl/plan/index.html</item>
+        <item>http://www.g2gostynin.pl/plan/index.html</item>
+        <item>http://www.g3.swidnica.pl/PLAN%20LEKCJI/plan.html</item>
+        <item>http://asp.wsa.edu.pl/wp-content/uploads/2015/plany/index.html</item>
+        <item>http://zsg.ddns.net/str_gas/plan2017a/index.html</item>
+        <item>http://sp2glogow.pl/PLAN/index.html</item>
+        <item>http://www.gim1.miasto.zgierz.pl/serwis/plan/index.html</item>
+        <item>http://www.gim1.sosnowiec.pl/plan/plan/</item>
+        <item>http://www.gim1.strzegom.pl/plany/</item>
+        <item>http://www.gim10.gliwice.pl/plan/</item>
+        <item>https://sp22.edu.pl/2017.2018/PLAN/</item>
+        <item>http://www.gim15.wroclaw.pl/plan/</item>
+        <item>http://gim18.wroclaw.pl/plan/index.html</item>
+        <item>http://www.gim1mielec.pl/plan/index.html</item>
+        <item>http://www.gim1trzebnica.neostrada.pl</item>
+        <item>http://plan.sp2.boleslawiec.pl/</item>
+        <item>http://gim2.mielec.pl/podzial/</item>
+        <item>http://www.sp24.tarman.pl/szkola/Plan_lekcji/index.html</item>
+        <item>http://www.sp2sk.pl/plany/index.html</item>
+        <item>http://www.gim3.tbg.net.pl/plany_lekcji/</item>
+        <item>http://gim5.test.kaelmo.pl/</item>
+        <item>http://gim5leg.pl/plan/</item>
+        <item>http://www.gim7.sosnowiec.pl/html/index.html</item>
+        <item>http://gim8.radom.pl/html%2013-17.11/</item>
+        <item>http://gimchocianow.pl/plan/index.html</item>
+        <item>http://www.gimgolina.pl/wp-content/themes/gimgol/html/index.html</item>
+        <item>http://gimkepice.pl/planlekcji/index.html</item>
+        <item>http://gimkonst.pl/e-szkola/plan/2017-2018/pol1/index.html</item>
+        <item>http://www.gimn1.krasnik.pl/plan/index.html</item>
+        <item>http://www.gimnazjum.gminagrojec.pl/plan/index.html</item>
+        <item>http://www.gimnazjum.nawojowa.pl/pliki/plan_lekcji_wrzesien_2017_ok/html1111/index.html</item>
+        <item>http://www.gimnazjum.olsztynek.com.pl/plan/index.html</item>
+        <item>http://gimnazjum.rzgow.pl/plekcji/</item>
+        <item>http://img.iap.pl/s/613/7731/plan/index.html</item>
+        <item>http://gimnazjum.stroze.com/planlekcji/index.html</item>
+        <item>http://gimnazjum.waw.pl/plan_lekcji/</item>
+        <item>http://www.gimnazjum1.nysa.pl/plan/index.html</item>
+        <item>http://www.gimnazjum1.swidnik.edu.pl/assets/plan/plan.html</item>
+        <item>http://www.gimnazjum12.nazwa.pl/str/plan/sp/index.html</item>
+        <item>http://gimnazjum2.radom.pl/plan/index.html</item>
+        <item>http://gimn3mz.nazwa.pl/Plany/index.html</item>
+        <item>http://plangim4.strefa.pl/</item>
+        <item>http://www.gimnazjum9.edu.pl/uczniowie/plan-lekcji</item>
+        <item>http://www.gimnazjumbojanowo.net/html/inde.html</item>
+        <item>http://www.gimnazjumulanow.pl/plan/</item>
+        <item>http://www.gimnazjumzyrzyn.pl/jupgrade/plan/index.html</item>
+        <item>http://gimnetplus.esy.es/plan/index.html</item>
+        <item>http://www.gimpiat.hg.pl/plan_lekcji/index.html</item>
+        <item>http://www.gimpiensk.home.pl/plan/index.html</item>
+        <item>http://www.gimrak.pl/plan/index.html</item>
+        <item>http://gimsycow.nazwa.pl/plan2017/index.html</item>
+        <item>http://gimsztum.pl/plan/index.html</item>
+        <item>http://www.gm1.pl/plan/html/</item>
+        <item>http://www.gm2.murowana-goslina.pl/plan/plan.html</item>
+        <item>http://www.sp9.glogow.pl/Plan_lekcji/</item>
+        <item>http://gp1.uznam.net.pl/nowy%20plan/</item>
+        <item>http://www.i-lo-tarnow.pl/plan_zajec/</item>
+        <item>http://www.ii-lo.tarnow.pl/beta/pliki/plant/index.html</item>
+        <item>https://www.iii-lo.tarnow.pl/plan/</item>
+        <item>http://www.iv-lo.tarnow.pl/Plan/</item>
+        <item>http://www.iwaszkiewicz.edu.pl/../plan/index.html</item>
+        <item>http://www.jedynka.zgora.pl/docs/plan/index.html?SID=14ed7a052ffa3f1b97a76fb422efe2f1</item>
+        <item>http://www.katolik.sosnowiec.pl/wp-content/uploads/sekretariat/plan/sp/index.html?iframe=true&amp;width=100%&amp;height=100%</item>
+        <item>http://vsl.strefa.pl/zsk/planlekcji/index.html</item>
+        <item>http://www.ken.pulawy.pl/plan/index.html</item>
+        <item>http://planlekcji.kobylany.pl</item>
+        <item>http://www.konarski.home.pl/plan_lekcji/index.html</item>
+        <item>http://www.koperniczek.net/2/wp-content/plan/plan/index.html</item>
+        <item>http://plankopernik.republika.pl/</item>
+        <item>http://kopernik.radom.pl/plan/index.html</item>
+        <item>http://krasiniak.pl/plan1/index.html</item>
+        <item>http://www.krynica.szkola.pl/plan/</item>
+        <item>http://www.krzywousty.edu.pl/files/</item>
+        <item>http://www.ksiaznice.szkola.pl/plan/index.html</item>
+        <item>http://lckziu.pl/plan_lekcji/</item>
+        <item>http://lelewel.poznan.pl/plan2017/5/index.html</item>
+        <item>http://www.liceum-kostrzyn.com/plan/index.html</item>
+        <item>http://www.liceum.nowaruda.pl/main/plan/index.html</item>
+        <item>http://www.liceum.org.pl/plan_lekcji/</item>
+        <item>http://lider24.eu/plan/</item>
+        <item>http://lider24.eu/plan/</item>
+        <item>http://lo-lubaczow.pl/planlekcji/index.html</item>
+        <item>http://plan.lo-mieszko.pl</item>
+        <item>http://www.lo.kopernik.jaroslaw.pl/plan/index.html</item>
+        <item>http://lo.lesko.pl/podstrony/planlekcji/</item>
+        <item>http://lo.pinczow.com/plany2013u/index.html</item>
+        <item>http://lo-koscian.pl/vito/plan_oddzialow_1_09_2017/</item>
+        <item>http://www.lo1.ostroleka.pl/plan/</item>
+        <item>http://www.lo1.pl/images/Plan/index.html</item>
+        <item>http://www.zso1raciborz.pl/plan/index.html</item>
+        <item>http://www.lo1jawor.pl/plan/index.html</item>
+        <item>http://www.lo1krosno.info.pl/wplo1/vulcann5/index.html</item>
+        <item>http://www.liceum.xon.pl/plan/index.html</item>
+        <item>http://zamoy.lublin.pl/plan/</item>
+        <item>http://www.lo2.ostrowiec.pl/html/index.html</item>
+        <item>http://lo2.slupsk.pl/Plan/Uczniowie/</item>
+        <item>http://www.lo2brzeg.wodip.opole.pl/images/plan/index.html</item>
+        <item>http://lo2kk.edu.pl/plan/</item>
+        <item>http://plan.lo2przemysl.edu.pl</item>
+        <item>http://lo3zamosc.edu.pl/Plan1/index.html</item>
+        <item>http://lo6.olsztyn.pl/plan/</item>
+        <item>http://www.lo6.resman.pl/podzial_godzin/index.html</item>
+        <item>http://plan.lobiecz.pl</item>
+        <item>http://loczarnkow.info/plan_lekcji/index.html</item>
+        <item>http://logrodkow.pl/plan/</item>
+        <item>http://plan.loken.pl/plan/</item>
+        <item>http://www.lolipno.oswiata.org.pl/joomla/planlekcji/</item>
+        <item>http://loonz.lbl.pl/plan_lekcji/index.html</item>
+        <item>http://lopionki.pl/images/html/index.html</item>
+        <item>http://loplonsk.pl/plan_lekcji/</item>
+        <item>http://www.lorymanow.pl/plan/index.html</item>
+        <item>http://www.losedziszow.edu.pl/plan/index.html</item>
+        <item>http://www.losulechow.pl/plan/index.html</item>
+        <item>http://www.losycow.pl/wp-content/themes/Szkola-Sycow/plan/</item>
+        <item>http://www.loustrzyki.edu.pl/plan/index.html</item>
+        <item>http://www.loxv.wroclaw.pl/site_media/Plan_lekcji/index.html</item>
+        <item>http://www.lozeromski.opoczno.pl/plan/</item>
+        <item>http://www.plan.lzk.pl</item>
+        <item>http://marynka.edu.pl/plan/index.html</item>
+        <item>http://www.mechanik.home.pl/plan/index.php</item>
+        <item>http://mechanikdebica.edu.pl/planlekcji/index.html</item>
+        <item>http://www.mg1.knurow.edu.pl/plan/</item>
+        <item>http://mg2.knurow.edu.pl/plan/index.html</item>
+        <item>http://www.mickiewicz.belchatow.pl/PLAN/index.html</item>
+        <item>http://www.mojaszkola.pl/PLAN/aktualny/</item>
+        <item>http://www.mrat.pl/vpl/</item>
+        <item>http://www.mg2.knurow.edu.pl/plan/index.html</item>
+        <item>http://mzs1gorlice.bho.pl/plany-klasy/</item>
+        <item>http://www.nowemiasto.edu.pl/plan/index.html</item>
+        <item>http://www.pckzjawor.pl/plan/</item>
+        <item>http://pg1.brzesko.pl/plan_lekcji/</item>
+        <item>http://91.227.59.48/gim22/plan/index.html</item>
+        <item>http://www.pg3.home.pl/plan/index.html</item>
+        <item>http://www.pg4.siedlce.pl/plan/20172018/index.html</item>
+        <item>http://pg5.kluczbork.pl/plan_lekcji/index.html</item>
+        <item>http://www.lo8.opole.pl/download/planlekcji/index.html</item>
+        <item>http://www.g7opole.wodip.opole.pl/z/klasy/</item>
+        <item>http://pilsudskikielce.cba.pl/</item>
+        <item>http://www.plater.edu.pl/plan_lekcji/</item>
+        <item>http://plo6-opole.pl/plan/index.html</item>
+        <item>http://www.paderewski.lublin.pl/plany/msp/</item>
+        <item>http://old2.prus.siedlce.pl/plan32/index.html</item>
+        <item>http://prywgim.home.pl/autoinstalator/wordpress/wp-content/uploads/2017/09/plan/index.html</item>
+        <item>http://prywgim.home.pl/autoinstalator/wordpress/wp-content/uploads/2017/09/plan/index.html</item>
+        <item>http://www.psp-wierzbica.pc-tech.pl/plan%2030-10-2017/index.html</item>
+        <item>http://www.psp.rzeszow.pijarki.pl/files/plan_SP/</item>
+        <item>http://psp1.kluczbork.pl/planlekcji/index.html</item>
+        <item>http://www.psp5.kluczbork.pl/plan-2017-09-18/index.html</item>
+        <item>http://www.psp5krasnik.szkolnastrona.pl/plan/</item>
+        <item>http://pz4seg.pl/plan_lekcji/index.html</item>
+        <item>http://www.pzs-krzyzowice.wroc.pl/plan/</item>
+        <item>http://www.pzs1.pl/menu/szkola/plan/index.html</item>
+        <item>http://www.pzs2-trzebnica.pl/planlekcji/index.html</item>
+        <item>http://pzs2pszczyna.pl//www/plan_lekcji/</item>
+        <item>http://www.pzsbierun.home.pl/plan/index.html</item>
+        <item>http://www.radzsp2.republika.pl/plan/index.html</item>
+        <item>http://www.rcezbilgoraj.lbl.pl/inne/planlekcji/</item>
+        <item>http://www.rdzawka.pl/plan/index.html</item>
+        <item>http://www.rejewski.pl/plan2/</item>
+        <item>http://www.rey.edu.pl/plan/index.html</item>
+        <item>http://www.role.gminalukow.pl/pliki/plan.htm</item>
+        <item>http://www.samochodowka.edu.pl/plan/</item>
+        <item>http://samochodowka.pszczyna.edu.pl/media/planlekcji/</item>
+        <item>http://www.siciny.eu/plan/siciny/</item>
+        <item>https://www.siodemka.edu.pl/public/plan/</item>
+        <item>http://www.slawiecice.edu.pl/plan/</item>
+        <item>http://www.slowacki.kielce.eu/plan/index.html</item>
+        <item>http://www.sms-cetniewo.pl/plan/index.html</item>
+        <item>http://www.sms.siarka-tarnobrzeg.pl/plan_l/index.html</item>
+        <item>http://sosw1.home.pl/plan/index.html</item>
+        <item>http://www.sosw1.lublin.eu/plan/index.html</item>
+        <item>http://www.sp-chmielek.pl/site_media/plan_lekcji/index.html</item>
+        <item>http://www.sp-osiny.pl/plan/index.html</item>
+        <item>http://kargowa.ayz.pl/images/2017/plan2017/index.html</item>
+        <item>http://www.sp1.com.pl/plan2017/index.html</item>
+        <item>http://www.sp1.lubliniec.pl/plan/index.html</item>
+        <item>http://sp1.polkowice.pl/plan/</item>
+        <item>http://sp1.zywiec.pl/plan/index.html</item>
+        <item>http://www.sp10bydgoszcz.pl/plan/</item>
+        <item>http://www.sp11.resman.pl/plan2017/index.html</item>
+        <item>http://sp118.pl/plany/index.html</item>
+        <item>http://www.sp11jg.pl/planlekcji/</item>
+        <item>http://www.sp12.elblag.pl/www1718/index.html</item>
+        <item>http://www.sp12.gniezno.pl/plany1718v2/index.html</item>
+        <item>http://www.sp13pabianice.pl/../plan/index.html</item>
+        <item>http://www.sp15.konin.pl/plan1/index.html</item>
+        <item>http://www.sp15.zgora.pl/plan/</item>
+        <item>http://www.sp17.republika.pl/plan/index.html</item>
+        <item>http://www.sp17.resman.pl/plan_lekcji-2017-18/</item>
+        <item>http://plan.sp18.pl/</item>
+        <item>http://www.sp1gostynin.edu.pl/plan/</item>
+        <item>http://www.sp1ladekzdroj.pl/plan_lekcji/</item>
+        <item>http://www.sp1piaseczno.pl/images/stories/plan1718/index.html</item>
+        <item>http://sp1sokolka.pl/plan_lekcji/plan_html/</item>
+        <item>http://www.sp1zolynia.pl/plan/index.html</item>
+        <item>http://gimkonst.pl/e-szkola/plan/2017-2018/pol1/index.html</item>
+        <item>http://www.sp2.malkiniagorna.pl/3/plan%20lekcji/</item>
+        <item>http://sp2.miasto.elk.pl/plan/index.html</item>
+        <item>http://www.sp20.bydgoszcz.pl/plan1/index.html</item>
+        <item>http://www.sp20ns.alte.pl/stara_strona/podzial_godzin/index.html</item>
+        <item>http://sp21.gliwice.pl/plan_lekcji/html/</item>
+        <item>http://sp21sacz.edu.pl/wp-content/uploads/plan1/</item>
+        <item>http://sp22.sosnowiec.pl/plan/</item>
+        <item>http://www.sp220.pl/planlekcji/index.html</item>
+        <item>http://www.sp258.edu.pl/files/plan_web/index.html</item>
+        <item>http://sp28.lublin.pl/plan/index.html</item>
+        <item>http://plan-gliwice-sp28.ugu.pl</item>
+        <item>http://www.sp2bydgoszcz.home.pl/_dane/Plan_lekcji/index.html</item>
+        <item>http://sp2glogow.pl/PLAN/index.html</item>
+        <item>http://www.sp2glubczyce.wodip.opole.pl/plany/index.html</item>
+        <item>http://www.sp2obornikisl.neostrada.pl</item>
+        <item>http://www.sp2sk.pl/plany/index.html</item>
+        <item>http://www.sp3.lubliniec.pl/plan/</item>
+        <item>http://www.sp30.lublin.pl/2017-2018/pppp/index.html</item>
+        <item>http://sp36.pl/Plan/</item>
+        <item>http://www.sp38.lublin.pl/plan-2017-2018-plan/</item>
+        <item>http://www.sp3konin.pl/plan/index.html</item>
+        <item>http://www.sp3lipowiec.czechowice-dziedzice.pl/plan/index.html</item>
+        <item>http://sp3rybnik.pl/plan/</item>
+        <item>http://www.sp4.pila.pl/plan_2017_basen/index.html</item>
+        <item>http://www.sp4.rawicz.pl/plan_lekcji/index.html</item>
+        <item>http://www.sp4an.internetdsl.pl/planlekcji.html</item>
+        <item>http://www.skizakopane.pl/plan1/</item>
+        <item>http://sp4zgierz.home.pl/czworka/plan_2013_3/</item>
+        <item>http://www.zsp3.gliwice.pl/wp-content/uploads/!plany2017/index.html</item>
+        <item>http://sp5.gostyn.pl/images/Plan/</item>
+        <item>http://www.sp53.szczecin.pl/images/plan2017/index.html</item>
+        <item>http://www.sp57.bydgoszcz.pl/sp57_bydgoszcz/plany/plany.html</item>
+        <item>http://sp5zakopane.szkolnastrona.pl/Plan/</item>
+        <item>http://www.sp6.gniezno.pl/plan1718v3/index.html</item>
+        <item>http://sp6.kolobrzeg.pl/wp-content/uploads/2017/08/index-3.html</item>
+        <item>http://www.sp6.mielec.pl/plan1/index.html</item>
+        <item>http://www.sp6.resman.pl/plan.htm</item>
+        <item>https://www.sp65.bydgoszcz.pl/dokumenty/plan0-7/index.html</item>
+        <item>http://www.sp65.edu.pl/plan_lekcji/</item>
+        <item>http://sp6rumia.edu.pl/plan/index.html</item>
+        <item>http://www.sp6wzdwola.neostrada.pl/planlekcji1/index.html</item>
+        <item>http://www.sp7.lublin.pl/plan_lekcji.php</item>
+        <item>http://www.sp7.swidnik.pl/images/002-organizacja-pracy-szkoly/23-plany-lekcji/2017-2018/index.html</item>
+        <item>http://plan.sp71.lodz.pl/</item>
+        <item>http://www.sp8.konin.pl/plan/index.html</item>
+        <item>http://www.sp8skarzysko.pl/html/index.html</item>
+        <item>http://sp9.legnica.pl/plan/index.html</item>
+        <item>http://www.sp9.tbg.net.pl/../doc/plan/index.html</item>
+        <item>http://www.sp98.wroc.pl/plan/</item>
+        <item>http://sp9katowice.szkolnastrona.pl/plan_lekcji/index.html</item>
+        <item>http://student.agh.edu.pl/~ppalimak/spb/index.html</item>
+        <item>http://plan.specjalna.iaw.pl/</item>
+        <item>http://www.spjanowiec.szkolnastrona.pl/plan/</item>
+        <item>http://www.spkamien.edu.pl/dokumenty/plan_lekcji/plan2017/index.html</item>
+        <item>http://www.spkunowo.com/plan-lekcji/</item>
+        <item>http://splambinowice.wodip.opole.pl/plan/html/index.html</item>
+        <item>http://www.splowez.pl/plan/index.html</item>
+        <item>http://www.spoleczna-stalowa.pl/planlekcji/</item>
+        <item>http://www.spprzezmierowo.pl/images/plan/index.html</item>
+        <item>http://www.spr3bielany.edu.pl/images/stories/plan/index.html</item>
+        <item>http://sprzgow.szkoly.lodz.pl/planhtml/</item>
+        <item>http://www.spskrobow.ehost.pl/2017/plan/</item>
+        <item>http://www.ssp-2.wrzesnia.pl/plan_16.02.2014_3/index_1.html</item>
+        <item>http://planlekcji.staff.edu.pl/</item>
+        <item>http://staszic.pl/plan/index.html</item>
+        <item>http://sucharski.boleslawianie.pl/index.html</item>
+        <item>http://www.szkola-sportowa.pl/oddzialy/</item>
+        <item>http://plekcji.republika.pl</item>
+        <item>http://szkolacechu.republika.pl/vulcan/index.html</item>
+        <item>http://szkoladzdz.pl/plan/</item>
+        <item>http://szkolakoscielec.republika.pl/</item>
+        <item>http://tab.edu.pl/plan_lekcji/index.html</item>
+        <item>http://www.targowa.edu.pl/plan_lekcji/index.html</item>
+        <item>http://www.tdgjar.edu.pl/wp-content/uploads/podzial_godzin/index.html</item>
+        <item>http://tme.d2.pl/downloads/plan/index.html</item>
+        <item>http://trzecieliceum.lm.pl/plan/</item>
+        <item>http://trzecieliceum.pl/wp-content/dokumenty/plan2016v2/index.html</item>
+        <item>http://plan.vlo.poznan.pl</item>
+        <item>http://www.dziennik-warecka.cba.pl/strona/plan/</item>
+        <item>http://www.wazowna.pl/htm/Plan1/</item>
+        <item>http://www.xilo.bialystok.pl/dokumenty/plan/index.html</item>
+        <item>http://www.zcemip.szczecin.pl/html/</item>
+        <item>http://www.zerom.4me.pl/planlekcji/03/index.html</item>
+        <item>http://zeromski.czest.pl/wp-content/uploads/planlekcji/index.html</item>
+        <item>http://www.zespol.pietrowicewielkie.pl/plan/index.html</item>
+        <item>http://www.zespolszkol.wolbrom.pl/html/index.html</item>
+        <item>http://www.zlpotok.pl/dane/pliki/plan-lekcji/index.html</item>
+        <item>https://web.zolkiewski.siedlce.pl/plany/</item>
+        <item>http://www.zpo-boronow.webserwer.pl/plan/index.html</item>
+        <item>https://zs-1.edu.pl/plany/uczniowie/</item>
+        <item>http://www.zs-bielice.pl/plan_lekcji/index.html</item>
+        <item>http://www.zs-chorzelow.pl/plan/index.html</item>
+        <item>http://www.zs-czudec.itl.pl/images/plan_lekcji/index.html</item>
+        <item>http://www.zs-lazy.edu.pl/_pliki/plan/index.html</item>
+        <item>http://zs-ostrow.zz.vc/plan01.09.2017/index.html</item>
+        <item>http://www.zs-strzyzow.itl.pl/./plan/</item>
+        <item>http://www.zs.lubawa.pl/plan_lekcji/index.html</item>
+        <item>http://www.zs.mielec.pl/zs/download/plan/index.html</item>
+        <item>http://www.zs.nowasarzyna.pl/plan/index.html</item>
+        <item>http://zs.polkowice.pl/plan/</item>
+        <item>http://zs.strzegom.pl/plan/</item>
+        <item>http://zs1.bochnia.pl/plan/</item>
+        <item>http://www.zs1.jastrzebie.pl/plan/</item>
+        <item>http://zs1.pisz.pl/images/pliki/plan/index.html</item>
+        <item>http://www.zs1.pulawy.pl/plan16/index.html</item>
+        <item>http://zs12lublin.eu/plan_lekcji7/index.html</item>
+        <item>http://www.zs14.bydgoszcz.pl/zasoby/plany/index.html</item>
+        <item>http://www.zs18.wroc.pl/plany/index.html</item>
+        <item>https://sp1bukowno.000webhostapp.com/</item>
+        <item>http://www.zs1pszczyna.pl/plan/index.html</item>
+        <item>http://zs1plan.linuxpl.eu</item>
+        <item>http://zs2.informatycznynadzor.pl/files/PLAN/index.html</item>
+        <item>http://www.zs26.pl/plan/index.html</item>
+        <item>http://zs2biecz.c0.pl/pliki/html_10/index.html</item>
+        <item>http://www.zs3.lukow.pl/html/index.html</item>
+        <item>http://www.zs3.wroc.pl/katalogi/planlekcji/index.html</item>
+        <item>http://www.zs3int.resman.pl/plan_lekcji/index.html</item>
+        <item>http://zs3kj.pl/plan/index.html</item>
+        <item>http://plan.d2.pl/</item>
+        <item>http://www.zs4suwalki.nazwa.pl/plan/index.html</item>
+        <item>http://zs5.elk.pl/plan/</item>
+        <item>http://zs5.lublin.pl/plan/</item>
+        <item>http://www.zs5.resman.pl/plan/plan.html</item>
+        <item>http://zs5.tychy.pl/plan/index.html</item>
+        <item>http://www.zsa.slupsk.pl/planlekcji/</item>
+        <item>http://www.zsanders.eu/plan/index.html</item>
+        <item>http://www.zsb.boleslawiec.pl/plan lekcji/index.html</item>
+        <item>http://www.zsb.lm.pl/old/plan/</item>
+        <item>http://www.zsb.tarnow.pl/planlekcji/</item>
+        <item>http://www.zsbd.pl/plan/</item>
+        <item>http://www.zsbem.pl/images/plan_lekcji/index.html</item>
+        <item>http://zschocianow.pl/plan/</item>
+        <item>http://www.62433.host3.iap.pl/</item>
+        <item>http://zse.boleslawiec.pl/plan_www/index.html</item>
+        <item>http://zse.bydgoszcz.pl/plan/</item>
+        <item>http://zse1.zse.gda.pl/plan/</item>
+        <item>http://w2.zse.glogow.pl/plan_html/?iframe=true</item>
+        <item>http://www.zse.zary.pl/~plan/index.html</item>
+        <item>http://www.zsech.edu.pl/plan2/index.html</item>
+        <item>http://kursy.zseg.cieszyn.pl/datap/Plan/index.html</item>
+        <item>http://www.zseh.pl/plan/index.html</item>
+        <item>http://www.zseii.edu.pl/plan_lekcji/index.html</item>
+        <item>http://zsel1.pl/planlekcji/index.html</item>
+        <item>http://plan.zselek.pl</item>
+        <item>http://www.zsem.edu.pl/plany/</item>
+        <item>http://zsem.pl/plan/</item>
+        <item>http://www.zsemm.edu.pl/html/</item>
+        <item>http://www.energetyk.ires.pl/planlekcji/index.html</item>
+        <item>http://www.zseo.tarman.pl/plan_lekcji.html</item>
+        <item>http://zsepoznan.pl/planl/index.html</item>
+        <item>http://www.informatyk24.nazwa.pl/planZSE/index.html</item>
+        <item>http://zsgd.pl/images/plan/</item>
+        <item>http://zsgd.kylos.pl/zsgd.poznan.pl/Plan/index.html</item>
+        <item>http://www.zsgh.torun.pl/plan/index.html</item>
+        <item>http://www.zsgh.wisla.pl/plan/index.html</item>
+        <item>http://zsgzia.lebork.pl/lekcjeplan/</item>
+        <item>http://www.zsh.bydgoszcz.pl/plan//index.html</item>
+        <item>http://www.plan.zsi.kielce.pl</item>
+        <item>http://www.zsilawa.pl/plan/</item>
+        <item>http://zsiwozdroj.republika.pl/plan/index.html</item>
+        <item>http://www.brati.ksu.pl/plan_lekcji/index.html</item>
+        <item>http://www.zskonieczkowa.webd.pl/plan/</item>
+        <item>http://zsku.rzeszow.pl/plan_lekcji_dzienne/html/index.html</item>
+        <item>http://www.zsl.szczecin.pl/dzialy/plan_lekcji/</item>
+        <item>http://zslacko.pl/plany/</item>
+        <item>http://www.zslisiecice.com.pl/images/html/index.html</item>
+        <item>http://zslt.nazwa.pl/plan/</item>
+        <item>http://www.zsmglubczyce.republika.pl/</item>
+        <item>http://zsmd.edu.pl/PlanLekcji/</item>
+        <item>http://plan.zsmeolsztyn.pl</item>
+        <item>http://zsmg.info/plan/Gimnazjum/index.html</item>
+        <item>http://www.zsmilicz.eu/ZS_plan/index.html</item>
+        <item>http://www.zsmosina.edu.pl/PLAN/</item>
+        <item>http://zsnr3.vot.pl/Plan/index.html</item>
+        <item>http://zsnr1.dmkproject.pl/vcedyrektor/html/index.html</item>
+        <item>http://www.zsnr2-szamotuly.pl/plan/index.html</item>
+        <item>http://www.zsnr2.stalowa-wola.pl/pliki/plany/nowyplan/index.html</item>
+        <item>http://www.zsnr2ns.edu.pl/plan/</item>
+        <item>http://zsnr3.pl/informacje/plan-lekcji/</item>
+        <item>http://www.zso-kowary.pl/Plany_Lekcji/index.html</item>
+        <item>http://www.zso-ozarow.oswiata.org.pl/images/stories/szkola/plan/index.html</item>
+        <item>http://www.zso.kamienna-gora.pl/strona/plan-lekcji/index.html</item>
+        <item>http://www.zso.tarnow.pl/plan/index.html</item>
+        <item>http://zso1.opole.pl/plany/plan/</item>
+        <item>http://zso2sw.strefa.pl/1IX2017/</item>
+        <item>http://7lo.legnica.eu/plan2017/#new_tab</item>
+        <item>http://zso5.gliwice.pl/planlekcji/</item>
+        <item>http://www.klasagimnazjalna.y0.pl/index.html</item>
+        <item>http://www.zso9.pl/html/index.html</item>
+        <item>http://plan.zsogrodowa.pl/</item>
+        <item>http://serwer1658003.home.pl/zsoiz/plan/index.html</item>
+        <item>http://www.zsojedlnia.edu.pl/plan_lekcji_p/index.html</item>
+        <item>http://www.zsokrasnobrod.pl/pliki/plan_lekcji/aktualny/index.html</item>
+        <item>http://www.zsomogielnica.pl/plan/index.html</item>
+        <item>http://www.zsonowogard.edu.pl/plan_ucz/index.html</item>
+        <item>http://zsonr1.gliwice.pl/html/plan_lekcji/index.html</item>
+        <item>http://zsoslomniki.pl/plan/</item>
+        <item>http://zsow.lublin.pl/plan_lekcji/</item>
+        <item>http://www.zsp-2.az.pl/plan/index.html</item>
+        <item>http://zsp-koscian.pl/dziennik/index.html</item>
+        <item>http://www.zsp-zakliczyn.pl/planlekcji1/</item>
+        <item>http://zsp.ornontowice.pl/plany/</item>
+        <item>http://www.zsp.starogard.pl/planlekcji/index.html</item>
+        <item>http://www.zsp.szczercow.pl/plan/</item>
+        <item>http://www.zsp1-brzesko.edu.pl/plan/index.html</item>
+        <item>http://www.zsp1-kielce.pl/plan/index.html</item>
+        <item>http://zsp1.chojnice.pl/plan/index.html</item>
+        <item>http://plan.zsp1.edu.pl</item>
+        <item>http://www.zsp1.oswiata.org.pl/html/index.html</item>
+        <item>http://zsp1.tarnobrzeg.pl/rozne/html2/index.html</item>
+        <item>http://www.zsp2.edu.pl/plany/</item>
+        <item>http://www.zsp2.miasto.net.pl/planlekcji/</item>
+        <item>http://zsp2gryf.webd.pl/plan/index.html</item>
+        <item>http://www.zsp2jarocin.pl/plan_2017/index.html</item>
+        <item>http://www.zsp3belchatow.pl/plan/index.html</item>
+        <item>http://plan.zsp3zamosc.pl/</item>
+        <item>http://plan.zsp4.malbork.pl</item>
+        <item>http://www.zsp4bel.pl/plan_30_10_17/index.html</item>
+        <item>http://zsp9.pl/plan31.10.2017/</item>
+        <item>http://plan.zspczarnkow.edu.pl</item>
+        <item>http://zspgrojec.eu/plan/aktualny/</item>
+        <item>http://www.zspiaski.pl/plan/plan.html</item>
+        <item>http://www.zspiatkowa.chelmiec.pl/plan/</item>
+        <item>http://zspjasieniec.pl/plan/plan2017_2018_2509/</item>
+        <item>http://zspm2.zspm.malopolska.pl/plan_lekcji/</item>
+        <item>http://www.zspmiedzyborz.internetdsl.pl/plan_lekcji.html</item>
+        <item>http://www.zspnr5.zamosc.roztocze.pl/images/Plan4/</item>
+        <item>http://zspposada.pl/plan_lekcji/index.html</item>
+        <item>http://www.zsps.torun.pl/plan/</item>
+        <item>http://www.zspu.jgora.pl/plan/</item>
+        <item>http://zspwarka.grojec.pl/plan/index.html</item>
+        <item>http://zsrgrd.pl/plan_04.04d/index.html</item>
+        <item>http://plan-lekcji.zsrcku-koscielec.pl/</item>
+        <item>http://zsrcku.nazwa.pl</item>
+        <item>http://plan.zsreszel.pl/</item>
+        <item>http://www.zsrkaczki.edu.pl/plan/index.html</item>
+        <item>http://www.zsrsroda.pl/plan/html/index.html</item>
+        <item>http://www.zsrudnik.edu.pl/plan_lekcji/index.html</item>
+        <item>http://www.zsrz.lublin.pl/zsrz/strony/szkola/dokumenty/plan/index.html</item>
+        <item>http://www.zsrzarnowiec.com.pl/plan%20lekcji/index.html</item>
+        <item>http://www.zss-rawicz.pl/galerie_18/plany_lekcji_k/index.html</item>
+        <item>http://moodle.zss-siemianowice.pl/pliki/plan/sp/index.html</item>
+        <item>http://zss.lublin.eu/plan/</item>
+        <item>http://www.plan.zss.pl/</item>
+        <item>http://www.zss.rze.pl/plan2017-2018/index.html</item>
+        <item>https://plan.zss.szczecin.pl/</item>
+        <item>http://www.zss3.opoczno.pl/plan_lekcji/index.html</item>
+        <item>http://zssam-gliwice.pl/plan/index.html</item>
+        <item>http://zssieniawa.com.pl/plan/index.html</item>
+        <item>http://plan.zssiennica.pl/</item>
+        <item>http://www.zssilesia.edu.pl/plan_lekcji/</item>
+        <item>http://wertis.nazwa.pl/</item>
+        <item>http://www.zsskepe.pl/plan_lekcji/index.html</item>
+        <item>http://zsslubin.pl/plan_17_18_5/</item>
+        <item>http://www.zssrzyki.andrychow.eu/plan.html</item>
+        <item>http://zst-radom.edu.pl/plan_www/</item>
+        <item>http://www.zst-tarnow.pl/wp-content/uploads/plan/</item>
+        <item>http://www.zst.trzcianka.com.pl/Pliki/Plan/</item>
+        <item>http://www.zstczluchow.pl/plan/index.html</item>
+        <item>http://zste.myslenice.pl/plan/index.html</item>
+        <item>http://www.zstg.pl/plan/index.html</item>
+        <item>http://zsti.edu.pl/plan/2017-09-25/</item>
+        <item>http://www.zstie.edu.pl/images/plan/index.html</item>
+        <item>http://www.zstih.nazwa.pl/plan/10_09/</item>
+        <item>http://www.zstil.eu/plan_lekcji/index.html</item>
+        <item>http://zstio.pl/plan_lekcji/index.html</item>
+        <item>http://www.zstiojar.edu.pl/plan/plan_lekcji/</item>
+        <item>http://www.zstlipno.cba.pl/vulcan/index.html</item>
+        <item>http://www.zstnr2.pop.pl/zst2/plan/index.html</item>
+        <item>http://www.zstrzeszow.pl/plan/</item>
+        <item>http://www.zstz-radzymin.pl/plan/index.html</item>
+        <item>http://zswojcieszkow.edu.pl/plan/index.html</item>
+        <item>http://www.zswola.eu/galery/planod9100/index.html</item>
+        <item>http://www.zsz.ehost.pl/pliki/moduly/bloki/plan1/index.html</item>
+        <item>http://zsz.przeworsk.pl/dane/plan/</item>
+        <item>http://plan.zsz1.poznan.pl/</item>
+        <item>http://www.zsz1brzeg.edu.pl/planlekcji/</item>
+        <item>http://www.zsz2.wrzesnia.powiat.pl/index.html</item>
+        <item>http://www.zsz4-ostroleka.com/foldery/planlekcji20171102/index.html</item>
+        <item>http://zsz7.pl/zajecia3/</item>
+        <item>http://zszbogatynia.pl/plan/html/</item>
+        <item>http://www.zszgoras.pol.pl/plan/index.html</item>
+        <item>http://zszgrybow.pl/images/planu6/index.html</item>
+        <item>http://zszilowo.bho.pl/plan/index.html</item>
+        <item>http://www.zszjanow.fc.pl/plan_lekcji/</item>
+        <item>http://zsz.lubliniec.pl/Plan_lekcji/plan/index.html</item>
+        <item>http://www.zszrawicz.pl/plan_lekcji/2017_10_31/index.html</item>
+        <item>http://www.zszs-gliwice.pl/plan/</item>
+        <item>http://www.zszslupca.pl/plan_vulcan/plan_zsz_pazdziernik2017/index.html</item>
+        <item>http://www.zszsroda.pl/plan/index.html</item>
+        <item>http://www.zzsp.miasto.zgierz.pl/plan/index.html</item>
+        <item>http://plan-lekcji.zs.civ.pl</item>
+        <item>http://wzstg.pl/files/plan/index.html</item>
+        <item>http://zespolszkol23.bydgoszcz.pl/images/planzs23/index.html</item>
+        <item>http://zpo2.krasnik.pl/plan2017/</item>
+        <item>http://zs1.edu.pl/pliki/plan/html_30.10.2017/</item>
+        <item>http://zs1.katowice.pl/plan/index.html</item>
+        <item>http://zs1alwernia.pl/pliki/plan_lekcji/index.html</item>
+        <item>http://zs1andrychow.pl/doc_pdf/index.html</item>
+        <item>http://www.zs2-gostynin.edu.pl/strony/plan/index.html</item>
+        <item>http://zs2.sanok.pl/plan_lekcji/index.html</item>
+        <item>http://zs23.wroclaw.pl/planl/index.html</item>
+        <item>http://zs2lancut.pl/./plan_lekcji/index.html</item>
+        <item>http://sp6.pila.pl/plan20172018_Isem_pazdziernik/index.html</item>
+        <item>http://plan.zs7.edu.pl/</item>
+        <item>http://zsckrbogdanczowice.pl/images/plan/index.html</item>
+        <item>http://www.zscku.konin.pl/plan/</item>
+        <item>http://plan.zscmolas.pl</item>
+        <item>http://zse.pila.pl/plan/index.html</item>
+        <item>http://www.zseil.edu.pl/rnowa/html/index.html</item>
+        <item>http://zsplaziska.nazwa.pl/zseiu/images/PlanLekcji/</item>
+        <item>http://zsen.lublin.pl/plan/</item>
+        <item>http://zseskarzysko.ehost.pl/plan/index.html</item>
+        <item>http://zskakolewo.pl/plan_17_18/index.html</item>
+        <item>http://zslt.klucznet.pl/plan/</item>
+        <item>http://www.zsm.resman.pl/images/plan_lekcji/index.html</item>
+        <item>http://www.zsm2krakow.pl/images/stories/plan/index.html</item>
+        <item>http://zsme.elk.edu.pl/plan/index.html</item>
+        <item>http://www.zsmebytom.pl/pg/plan/</item>
+        <item>http://www.zsmyczkow.republika.pl/</item>
+        <item>http://balzer.cal24.pl/plan/index.html</item>
+        <item>http://zso.pawlowice.edu.pl/pliki/plan_lekcji/index.html</item>
+        <item>http://plan.1lo.gorzow.pl</item>
+        <item>http://planlekcji.zso1.mielec.pl</item>
+        <item>http://zso4.lublin.eu/data/file/pliki/plan/index.html</item>
+        <item>http://www.zso5.sosnowiec.pl/plan/index.html</item>
+        <item>http://ckziu.tuchow.pl/plan/index.html</item>
+        <item>http://zsp2.boo.pl/plan/index.html</item>
+        <item>http://www.zsp2.piotrkow.pl/pliki/Plan_lekcji/index.html</item>
+        <item>http://zspbialobrzegi.edu.pl/html/index.html</item>
+        <item>http://sp_ligotaks.republika.pl/plan_sp/index.html</item>
+        <item>http://zspnr1-krasnystaw.edu.pl/plan/html/index.html</item>
+        <item>http://www.zsppaniowki.pl/plan2017/</item>
+        <item>http://zspwrzesnia.pl/plan/index.html</item>
+        <item>http://zsrz.lublin.pl/zsrz/strony/szkola/dokumenty/plan/index.html</item>
+        <item>http://www.zss-koscian.pl/plan/</item>
+        <item>http://www.zss.olsztyn.pl/plan/index.html</item>
+        <item>http://www.zssb.ids.czest.pl/dwn/plan/index.html</item>
+        <item>http://zssokolow.edu.pl/plan-lekcji/</item>
+        <item>http://zst-skarzysko.pl/plan/#new_tab</item>
+        <item>http://plan.zst.augustow.pl</item>
+        <item>http://zst.cieszyn.pl/planlekcji/index.html</item>
+        <item>http://zsti.elblag.pl/plan/</item>
+        <item>http://zstlancut.pl/plan/index.html</item>
+        <item>http://zswadamowie.pl/plan/index.html</item>
+        <item>http://www.zsz-gostyn.com.pl/planlekcji/index.html</item>
+        <item>http://www.zszagorze.republika.pl/</item>
+        <item>http://zszio-sulkowice.pl/podstrony_zew/podzial_godzin/index.html</item>
+        <item>http://zszslupca.pl/plan_vulcan/plan_zsz_pazdziernik2017/index.html</item>
+        <item>http://zszwolsztyn.pl/planlekcji1</item>
+    </string-array>
+</resources>

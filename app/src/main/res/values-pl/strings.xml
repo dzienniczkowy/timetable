@@ -2,4 +2,7 @@
     <string name="app_name">Plan lekcji</string>
     <string name="action_settings">Ustawienia</string>
     <string name="hello_text">Dodaj plan lekcji przyciskiem poniżej</string>
+    <string name="input_title">Dodawanie planu lekcji</string>
+    <string name="prompt_school">Nazwa szkoły</string>
+    <string name="action_save">Zapisz</string>
 </resources>

@@ -2,4 +2,7 @@
     <string name="app_name">Timetable</string>
     <string name="action_settings">Settings</string>
     <string name="hello_text">Add timetable with button bellow</string>
+    <string name="input_title">Adding timetable</string>
+    <string name="prompt_school">School name</string>
+    <string name="action_save">Save</string>
 </resources>
