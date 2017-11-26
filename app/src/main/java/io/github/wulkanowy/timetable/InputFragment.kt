@@ -39,7 +39,7 @@ class InputFragment : Fragment() {
             }
 
             if (map.containsKey(timetableUrl)) {
-                timetableUrl = map[timetableUrl]
+                timetableUrl = map[timetableUrl] as String
             }
 
             Snackbar.make(activity!!.findViewById(R.id.container),
