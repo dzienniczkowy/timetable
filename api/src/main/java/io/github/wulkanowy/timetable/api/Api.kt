@@ -5,10 +5,10 @@ import org.jsoup.nodes.Document
 
 import java.io.IOException
 
-class Api {
+abstract class Api {
 
     @Throws(IOException::class)
-    fun getPageByUrl(url: String): Document {
+    open fun getPageByUrl(url: String): Document {
         return Jsoup.connect(url)
                 .followRedirects(true)
                 .get()
