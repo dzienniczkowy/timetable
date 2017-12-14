@@ -13,7 +13,7 @@ open class TimetableList : Api() {
     data class Room(val name: String, val value: String)
 
     fun getTimetableList(url: String): Data {
-        val doc : Document = getPageByUrl(url)
+        val doc: Document = getPageByUrl(url)
 
         val classes: MutableList<Class> = mutableListOf()
         val teachers: MutableList<Teacher> = mutableListOf()
