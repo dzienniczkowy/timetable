@@ -28,7 +28,7 @@ jacocoTestReport {
 }
 
 dependencies {
-    implementation 'org.jsoup:jsoup:1.10.3'
+    implementation 'org.jsoup:jsoup:1.11.2'
     implementation 'org.apache.commons:commons-lang3:3.6'
 
     testImplementation 'junit:junit:4.12'
@@ -90,18 +90,7 @@ install {
         }
     }
 }
-buildscript {
-    ext.kotlin_version = '1.2.0'
-    repositories {
-        mavenCentral()
-    }
-    dependencies {
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-    }
-}
-repositories {
-    mavenCentral()
-}
+
 compileKotlin {
     kotlinOptions {
         jvmTarget = "1.8"
