@@ -12,37 +12,71 @@ import com.nhaarman.mockito_kotlin.mock
 
 class TimetableListTest : BaseTest() {
 
-    private val timetableList = TimetableList("http://faketable.wulkanowy/index.html", mock {
-        on { getPageByUrl(anyString()) } doReturn Jsoup.parse(readFile("lista.html"))
+    private val timetableSelect = TimetableList("http://faketable.wulkanowy/lista-form.html", mock {
+        on { getPageByUrl(anyString()) } doReturn Jsoup.parse(readFile("lista-form.html"))
+    })
+
+    private val timetableUl = TimetableList("http://faketable.wulkanowy/lista-unordered.html", mock {
+        on { getPageByUrl(anyString()) } doReturn Jsoup.parse(readFile("lista-unordered.html"))
     })
 
     @Test
     fun testGetTimetableListTypes() {
-        assertThat(timetableList.getTimetableList(),
-                instanceOf(TimetableList.Data::class.java))
+        assertThat(timetableSelect.getTimetableList(), instanceOf(TimetableList.Data::class.java))
+        assertThat(timetableUl.getTimetableList(), instanceOf(TimetableList.Data::class.java))
     }
 
     @Test
-    fun testClassData() {
-        assertEquals("1Tc", timetableList.getTimetableList().classes[0].name)
-        assertEquals("1", timetableList.getTimetableList().classes[0].value)
-        assertEquals("1Ti", timetableList.getTimetableList().classes[1].name)
-        assertEquals("2", timetableList.getTimetableList().classes[1].value)
+    fun testClassDataSelect() {
+        assertEquals(2, timetableSelect.getTimetableList().classes.size)
+        assertEquals("1Tc", timetableSelect.getTimetableList().classes[0].name)
+        assertEquals("1", timetableSelect.getTimetableList().classes[0].value)
+        assertEquals("1Ti", timetableSelect.getTimetableList().classes[1].name)
+        assertEquals("2", timetableSelect.getTimetableList().classes[1].value)
     }
 
     @Test
-    fun testTeachersData() {
-        assertEquals("I.Ochocki (Io)", timetableList.getTimetableList().teachers[0].name)
-        assertEquals("1", timetableList.getTimetableList().teachers[0].value)
-        assertEquals("M.Oleszkiewicz (Mo)", timetableList.getTimetableList().teachers[1].name)
-        assertEquals("3", timetableList.getTimetableList().teachers[1].value)
+    fun testClassDataUl() {
+        assertEquals(2, timetableUl.getTimetableList().classes.size)
+        assertEquals("1Tc", timetableUl.getTimetableList().classes[0].name)
+        assertEquals("1", timetableUl.getTimetableList().classes[0].value)
+        assertEquals("1Ti", timetableUl.getTimetableList().classes[1].name)
+        assertEquals("2", timetableUl.getTimetableList().classes[1].value)
     }
 
     @Test
-    fun testRoomData() {
-        assertEquals("16 prac. geograficzna", timetableList.getTimetableList().rooms[0].name)
-        assertEquals("1", timetableList.getTimetableList().rooms[0].value)
-        assertEquals("17 prac. fizyczna", timetableList.getTimetableList().rooms[1].name)
-        assertEquals("2", timetableList.getTimetableList().rooms[1].value)
+    fun testTeachersDataSelect() {
+        assertEquals(2, timetableSelect.getTimetableList().teachers.size)
+        assertEquals("I.Ochocki (Io)", timetableSelect.getTimetableList().teachers[0].name)
+        assertEquals("1", timetableSelect.getTimetableList().teachers[0].value)
+        assertEquals("M.Oleszkiewicz (Mo)", timetableSelect.getTimetableList().teachers[1].name)
+        assertEquals("3", timetableSelect.getTimetableList().teachers[1].value)
+    }
+
+    @Test
+    fun testTeachersDataUl() {
+        assertEquals(2, timetableUl.getTimetableList().teachers.size)
+        assertEquals("I.Ochocki (Io)", timetableUl.getTimetableList().teachers[0].name)
+        assertEquals("1", timetableUl.getTimetableList().teachers[0].value)
+        assertEquals("M.Oleszkiewicz (Mo)", timetableUl.getTimetableList().teachers[1].name)
+        assertEquals("3", timetableUl.getTimetableList().teachers[1].value)
+    }
+
+    @Test
+    fun testRoomDataSelect() {
+        assertEquals(2, timetableSelect.getTimetableList().rooms.size)
+        assertEquals("16 prac. geograficzna", timetableSelect.getTimetableList().rooms[0].name)
+        assertEquals("1", timetableSelect.getTimetableList().rooms[0].value)
+        assertEquals("17 prac. fizyczna", timetableSelect.getTimetableList().rooms[1].name)
+        assertEquals("2", timetableSelect.getTimetableList().rooms[1].value)
+    }
+
+    @Test
+    fun testRoomDataUl() {
+        assertEquals(2, timetableUl.getTimetableList().rooms.size)
+        assertEquals("16 prac. geograficzna", timetableUl.getTimetableList().rooms[0].name)
+        assertEquals("1", timetableUl.getTimetableList().rooms[0].value)
+        assertEquals("17 prac. fizyczna", timetableUl.getTimetableList().rooms[1].name)
+        assertEquals("2", timetableUl.getTimetableList().rooms[1].value)
     }
 }

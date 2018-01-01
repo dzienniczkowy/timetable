@@ -15,6 +15,14 @@ class TimetableList(private val url: String, private val client: Client) {
     fun getTimetableList(): Data {
         val doc: Document = client.getPageByUrl(url)
 
+        return if (doc.select("form[name=form]").isNotEmpty()) {
+            getTimetableSelectListType(doc)
+        } else {
+            getTimetableUnorderedListType(doc)
+        }
+    }
+
+    private fun getTimetableSelectListType(doc: Document): Data {
         val classes: MutableList<Class> = mutableListOf()
         val teachers: MutableList<Teacher> = mutableListOf()
         val rooms: MutableList<Room> = mutableListOf()
@@ -29,6 +37,29 @@ class TimetableList(private val url: String, private val client: Client) {
 
         doc.select("[name=sale] option").drop(1).mapTo(rooms) {
             Room(it.text(), it.attr("value"))
+        }
+
+        return Data(classes = classes, teachers = teachers, rooms = rooms)
+    }
+
+    private fun getTimetableUnorderedListType(doc: Document): Data {
+        val classes: MutableList<Class> = mutableListOf()
+        val teachers: MutableList<Teacher> = mutableListOf()
+        val rooms: MutableList<Room> = mutableListOf()
+
+        doc.select("ul:first-of-type a").mapTo(classes) {
+            Class(it.text(), it.attr("href")
+                    .removePrefix("plany/o").removeSuffix(".html"))
+        }
+
+        doc.select("ul:nth-of-type(2) a").mapTo(teachers) {
+            Teacher(it.text(), it.attr("href")
+                    .removePrefix("plany/n").removeSuffix(".html"))
+        }
+
+        doc.select("ul:nth-of-type(3) a").mapTo(rooms) {
+            Room(it.text(), it.attr("href")
+                    .removePrefix("plany/s").removeSuffix(".html"))
         }
 
         return Data(classes = classes, teachers = teachers, rooms = rooms)
