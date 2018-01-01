@@ -1,6 +1,7 @@
 package io.github.wulkanowy.timetable.api
 
-import com.nhaarman.mockito_kotlin.*
+import com.nhaarman.mockito_kotlin.doReturn
+import com.nhaarman.mockito_kotlin.mock
 import org.jsoup.Jsoup
 import org.junit.Assert.assertEquals
 
@@ -9,13 +10,13 @@ import org.mockito.ArgumentMatchers.anyString
 
 class TableTest : BaseTest() {
 
-    private val table = mock<Table> {
+    private val table = Table("http://faketable.wulkanowy/plany/o1.html", mock {
         on { getPageByUrl(anyString()) } doReturn Jsoup.parse(readFile("oddzial.html"))
-    }
+    })
 
-    private val tableRoom = mock<Table> {
+    private val tableRoom = Table("http://faketable.wulkanowy/plany/s1.html", mock {
         on { getPageByUrl(anyString()) } doReturn Jsoup.parse(readFile("sala.html"))
-    }
+    })
 
     @Test
     fun getClassTableTest() {

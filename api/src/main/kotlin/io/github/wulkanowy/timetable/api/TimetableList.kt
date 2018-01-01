@@ -2,7 +2,7 @@ package io.github.wulkanowy.timetable.api
 
 import org.jsoup.nodes.Document
 
-open class TimetableList : Api() {
+open class TimetableList(private val url: String, private val client: Client) {
 
     data class Data(val classes: List<Class>, val teachers: List<Teacher>, val rooms: List<Room>)
 
@@ -12,8 +12,8 @@ open class TimetableList : Api() {
 
     data class Room(val name: String, val value: String)
 
-    fun getTimetableList(url: String): Data {
-        val doc: Document = getPageByUrl(url)
+    fun getTimetableList(): Data {
+        val doc: Document = client.getPageByUrl(url)
 
         val classes: MutableList<Class> = mutableListOf()
         val teachers: MutableList<Teacher> = mutableListOf()

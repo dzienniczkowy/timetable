@@ -5,7 +5,7 @@ import org.jsoup.nodes.Document
 
 import java.io.IOException
 
-abstract class Api {
+open class Client {
 
     @Throws(IOException::class)
     open fun getPageByUrl(url: String): Document {

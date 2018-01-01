@@ -3,7 +3,7 @@ package io.github.wulkanowy.timetable.api
 import org.jsoup.nodes.Element
 import org.jsoup.select.Elements
 
-open class Table(private val url: String) : Api() {
+open class Table(private val url: String, private val client: Client) {
 
     data class Week(val days: MutableList<Day> = mutableListOf())
 
@@ -37,7 +37,7 @@ open class Table(private val url: String) : Api() {
     }
 
     fun getTable(name: String): Week {
-        val table = getPageByUrl(url + name).select(".tabela").first()
+        val table = client.getPageByUrl(url + name).select(".tabela").first()
 
         val days: MutableList<Day> = getDays(table.select("tr th"))
 
