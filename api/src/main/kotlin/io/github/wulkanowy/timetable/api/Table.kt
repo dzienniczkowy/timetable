@@ -3,7 +3,7 @@ package io.github.wulkanowy.timetable.api
 import org.jsoup.nodes.Element
 import org.jsoup.select.Elements
 
-open class Table(private val url: String, private val client: Client) {
+class Table(private val url: String, private val client: Client) {
 
     data class Week(val days: MutableList<Day> = mutableListOf())
 

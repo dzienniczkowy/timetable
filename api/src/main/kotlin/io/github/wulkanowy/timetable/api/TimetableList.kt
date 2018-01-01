@@ -2,7 +2,7 @@ package io.github.wulkanowy.timetable.api
 
 import org.jsoup.nodes.Document
 
-open class TimetableList(private val url: String, private val client: Client) {
+class TimetableList(private val url: String, private val client: Client) {
 
     data class Data(val classes: List<Class>, val teachers: List<Teacher>, val rooms: List<Room>)
 
