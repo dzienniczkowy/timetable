@@ -20,10 +20,15 @@ class TimetableListTest : BaseTest() {
         on { getPageByUrl(anyString()) } doReturn Jsoup.parse(readFile("lista-unordered.html"))
     })
 
+    private val timetableExpand = TimetableList("http://faketable.wulkanowy/lista-expandable.html", mock {
+        on { getPageByUrl(anyString()) } doReturn Jsoup.parse(readFile("lista-expandable.html"))
+    })
+
     @Test
     fun testGetTimetableListTypes() {
         assertThat(timetableSelect.getTimetableList(), instanceOf(TimetableList.Data::class.java))
         assertThat(timetableUl.getTimetableList(), instanceOf(TimetableList.Data::class.java))
+        assertThat(timetableExpand.getTimetableList(), instanceOf(TimetableList.Data::class.java))
     }
 
     @Test
@@ -45,6 +50,15 @@ class TimetableListTest : BaseTest() {
     }
 
     @Test
+    fun testClassDataExpandable() {
+        assertEquals(2, timetableExpand.getTimetableList().classes.size)
+        assertEquals("1Tc", timetableExpand.getTimetableList().classes[0].name)
+        assertEquals("1", timetableExpand.getTimetableList().classes[0].value)
+        assertEquals("1Ti", timetableExpand.getTimetableList().classes[1].name)
+        assertEquals("2", timetableExpand.getTimetableList().classes[1].value)
+    }
+
+    @Test
     fun testTeachersDataSelect() {
         assertEquals(2, timetableSelect.getTimetableList().teachers.size)
         assertEquals("I.Ochocki (Io)", timetableSelect.getTimetableList().teachers[0].name)
@@ -63,6 +77,15 @@ class TimetableListTest : BaseTest() {
     }
 
     @Test
+    fun testTeachersDataExpandable() {
+        assertEquals(2, timetableExpand.getTimetableList().teachers.size)
+        assertEquals("I.Ochocki (Io)", timetableExpand.getTimetableList().teachers[0].name)
+        assertEquals("1", timetableExpand.getTimetableList().teachers[0].value)
+        assertEquals("M.Oleszkiewicz (Mo)", timetableExpand.getTimetableList().teachers[1].name)
+        assertEquals("3", timetableExpand.getTimetableList().teachers[1].value)
+    }
+
+    @Test
     fun testRoomDataSelect() {
         assertEquals(2, timetableSelect.getTimetableList().rooms.size)
         assertEquals("16 prac. geograficzna", timetableSelect.getTimetableList().rooms[0].name)
@@ -78,5 +101,14 @@ class TimetableListTest : BaseTest() {
         assertEquals("1", timetableUl.getTimetableList().rooms[0].value)
         assertEquals("17 prac. fizyczna", timetableUl.getTimetableList().rooms[1].name)
         assertEquals("2", timetableUl.getTimetableList().rooms[1].value)
+    }
+
+    @Test
+    fun testRoomDataExpandable() {
+        assertEquals(2, timetableExpand.getTimetableList().rooms.size)
+        assertEquals("16 prac. geograficzna", timetableExpand.getTimetableList().rooms[0].name)
+        assertEquals("1", timetableExpand.getTimetableList().rooms[0].value)
+        assertEquals("17 prac. fizyczna", timetableExpand.getTimetableList().rooms[1].name)
+        assertEquals("2", timetableExpand.getTimetableList().rooms[1].value)
     }
 }

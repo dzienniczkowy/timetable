@@ -15,10 +15,10 @@ class TimetableList(private val url: String, private val client: Client) {
     fun getTimetableList(): Data {
         val doc: Document = client.getPageByUrl(url)
 
-        return if (doc.select("form[name=form]").isNotEmpty()) {
-            getTimetableSelectListType(doc)
-        } else {
-            getTimetableUnorderedListType(doc)
+        return when {
+            doc.select("form").isNotEmpty() -> getTimetableSelectListType(doc)
+            doc.select("body table").isNotEmpty() -> getTimetableExpandableListType(doc)
+            else -> getTimetableUnorderedListType(doc)
         }
     }
 
@@ -43,21 +43,31 @@ class TimetableList(private val url: String, private val client: Client) {
     }
 
     private fun getTimetableUnorderedListType(doc: Document): Data {
+        return getTimetableUrlSubType(doc,
+                "ul:first-of-type a", "ul:nth-of-type(2) a", "ul:nth-of-type(3) a")
+    }
+
+    private fun getTimetableExpandableListType(doc: Document): Data {
+        return getTimetableUrlSubType(doc,
+                "#oddzialy a", "#nauczyciele a", "#sale a")
+    }
+
+    private fun getTimetableUrlSubType(doc: Document, classQ: String, teachersQ: String, roomsQ: String): Data {
         val classes: MutableList<Class> = mutableListOf()
         val teachers: MutableList<Teacher> = mutableListOf()
         val rooms: MutableList<Room> = mutableListOf()
 
-        doc.select("ul:first-of-type a").mapTo(classes) {
+        doc.select(classQ).mapTo(classes) {
             Class(it.text(), it.attr("href")
                     .removePrefix("plany/o").removeSuffix(".html"))
         }
 
-        doc.select("ul:nth-of-type(2) a").mapTo(teachers) {
+        doc.select(teachersQ).mapTo(teachers) {
             Teacher(it.text(), it.attr("href")
                     .removePrefix("plany/n").removeSuffix(".html"))
         }
 
-        doc.select("ul:nth-of-type(3) a").mapTo(rooms) {
+        doc.select(roomsQ).mapTo(rooms) {
             Room(it.text(), it.attr("href")
                     .removePrefix("plany/s").removeSuffix(".html"))
         }
