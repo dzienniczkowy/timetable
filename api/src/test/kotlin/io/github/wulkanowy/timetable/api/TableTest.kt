@@ -98,4 +98,11 @@ class TableTest : BaseTest() {
         assertEquals("2Tc", tableRoom.getTable("").days[0].hours[0].lessons[0].className)
         assertEquals("4Tp", tableRoom.getTable("").days[1].hours[0].lessons[0].className)
     }
+
+    @Test
+    fun getTableLessonClassAltTest() {
+        assertEquals("", table.getTable("").days[0].hours[0].lessons[0].alt)
+        assertEquals("", tableRoom.getTable("").days[1].hours[0].lessons[0].alt)
+        assertEquals("Zajęcia praktyczne", table.getTable("").days[0].hours[8].lessons[0].alt)
+    }
 }
