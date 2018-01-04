@@ -20,9 +20,9 @@ class TableTest : BaseTest() {
 
     @Test
     fun getClassTableTest() {
-        assertEquals(5, table.getClassTable("1").days.size)
-        assertEquals(9, table.getRoomTable("2").days[2].hours.size)
-        assertEquals(9, table.getTeacherTable("2").days[2].hours.size)
+        assertEquals(5, table.getClassTable(1).days.size)
+        assertEquals(9, table.getRoomTable(2).days[2].hours.size)
+        assertEquals(9, table.getTeacherTable(2).days[2].hours.size)
     }
 
     @Test

@@ -13,7 +13,9 @@ class TimetableList(private val url: String, private val client: Client) {
     data class Room(val name: String, val value: String)
 
     fun getTimetableList(): Data {
-        val doc: Document = client.getPageByUrl(url)
+        val doc: Document = client.getPageByUrl(
+                client.getPageByUrl(url).select("frame[name=list]").attr("abs:src")
+        )
 
         return when {
             doc.select("form").isNotEmpty() -> getTimetableSelectListType(doc)

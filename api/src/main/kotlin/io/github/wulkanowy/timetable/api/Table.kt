@@ -24,20 +24,20 @@ class Table(private val url: String, private val client: Client) {
             val alt: String = ""
     )
 
-    fun getClassTable(number: String): Week {
+    fun getClassTable(number: Int): Week {
         return getTable("o" + number)
     }
 
-    fun getTeacherTable(number: String): Week {
+    fun getTeacherTable(number: Int): Week {
         return getTable("n" + number)
     }
 
-    fun getRoomTable(number: String): Week {
+    fun getRoomTable(number: Int): Week {
         return getTable("s" + number)
     }
 
     fun getTable(name: String): Week {
-        val table = client.getPageByUrl(url + name).select(".tabela").first()
+        val table = client.getPageByUrl(url + "plany/" + name + ".html").select(".tabela").first()
 
         val days: MutableList<Day> = getDays(table.select("tr th"))
 
