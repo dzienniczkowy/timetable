@@ -34,7 +34,7 @@ class InputFragment : Fragment() {
             val map = LinkedHashMap<String, String>()
 
             for (i in 0 until Math.min(keys.size, values.size)) {
-                map.put(keys[i], values[i])
+                map[keys[i]] = values[i]
             }
 
             if (map.containsKey(timetableUrl)) {

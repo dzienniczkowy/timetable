@@ -25,15 +25,15 @@ class Table(private val url: String, private val client: Client) {
     )
 
     fun getClassTable(number: Int): Week {
-        return getTable("o" + number)
+        return getTable("o$number")
     }
 
     fun getTeacherTable(number: Int): Week {
-        return getTable("n" + number)
+        return getTable("n$number")
     }
 
     fun getRoomTable(number: Int): Week {
-        return getTable("s" + number)
+        return getTable("s$number")
     }
 
     fun getTable(name: String): Week {
