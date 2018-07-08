@@ -28,14 +28,14 @@ jacocoTestReport {
 }
 
 dependencies {
-    implementation 'org.jsoup:jsoup:1.11.2'
+    implementation 'org.jsoup:jsoup:1.11.3'
     implementation 'org.apache.commons:commons-lang3:3.7'
 
     testImplementation 'junit:junit:4.12'
-    testImplementation 'org.mockito:mockito-core:2.13.0'
-    testImplementation "com.nhaarman:mockito-kotlin:1.5.0"
+    testImplementation 'org.mockito:mockito-core:2.19.0'
+    testImplementation "com.nhaarman:mockito-kotlin:1.6.0"
     implementation "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 }
 
 def siteUrl = 'https://github.com/wulkanowy/timetable'
