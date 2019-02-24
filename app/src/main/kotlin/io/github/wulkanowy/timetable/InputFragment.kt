@@ -1,21 +1,19 @@
 package io.github.wulkanowy.timetable
 
 import android.os.Bundle
-import android.support.design.widget.Snackbar
-import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.AutoCompleteTextView
 import android.widget.Button
-
-import java.util.LinkedHashMap
+import androidx.fragment.app.Fragment
+import com.google.android.material.snackbar.Snackbar
+import java.util.*
 
 class InputFragment : Fragment() {
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
-                              savedInstanceState: Bundle?): View? {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val view = inflater.inflate(R.layout.fragment_input, container, false)
         val schoolView = view.findViewById<AutoCompleteTextView>(R.id.school)
 
@@ -41,8 +39,9 @@ class InputFragment : Fragment() {
                 timetableUrl = map[timetableUrl] as String
             }
 
-            Snackbar.make(activity!!.findViewById(R.id.container),
-                    timetableUrl, Snackbar.LENGTH_SHORT).show()
+            activity?.run {
+                Snackbar.make(findViewById(R.id.container), timetableUrl, Snackbar.LENGTH_SHORT).show()
+            }
         }
 
         return view
